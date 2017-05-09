@@ -21,15 +21,20 @@
 	<body>
 	<nav>
 		<ul>
-			<li><a href="#">Company</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Social</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="concept.html">Concept</a></li>
+			<li><a href="next-battle.html">Next Battle</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 
 	<div class="menu-btn">
-		<a class="btn-open" href="javascript:void(0)"></a>
+		<div>
+			<a href="index.html">
+				<img class="size_logo" src="../css/Logo.png" alt="logo">
+			</a>
+		</div>
+		<a id="open_close" class="btn-open" href="javascript:void(0)"></a>
 	</div>
 
 	<div class="overlay">
@@ -38,13 +43,63 @@
 				<li><a href="#">Next Battle</a>
 					<ul>
 						<li><a href="concept.html">Accueil</a></li>
+						<li><a href="current_battle.html">Battle du moment</a></li>
 						<li><a href="concept.html">Concept</a></li>
-						<li><a href="contact.html">ALLO</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 	</div>
-	<p>coucou next battle</p>
+
+	<main>
+		<div class="flex_align_case_contact margin_next_battle">
+			<div class="center_categories_next-battle color_cate_next_battle">
+				<p>Prochaine</p>
+				<p>battle</p>
+			</div>
+			<p class="space_point">	&bull;</p>
+			<div class="center_categories_next-battle">
+				<p>Anciennes</p>
+				<p>battles</p>
+			</div>
+			<p class="space_point">	&bull;</p>
+			<div class="center_categories_next-battle">
+				<p>Place au</p>
+				<p>vote</p>
+			</div>
+		</div>
+		<div class="size_img_next_battle">
+
+		</div>
+		<div class="center_categories_next-battle bold">
+			<p class="no_marge">Rejoignez-nous le Jeudi 18 Mai pour une</p>
+			<p class="no_marge">battle du tonnerre!</p>
+		</div>
+
+	</main>
+
+
+
+	<footer>
+		<h3>Newsletter</h3>
+		<p class="center_p_footer">Soyez le premier à être au courant de notre actualité !</p>
+
+		<form class="form_footer">
+			<input class="mail_footer" type="email" placeholder="email@example.com">
+			<input class="footer_submit" type="submit" class="btn" value="S'inscrire">
+		</form>
+		<div class="link_footer">
+			<p><a href="index.html">Accueil</a></p>
+			<p><a href="current_battle.html">Battle du moment</a></p>
+			<p><a href="index.html">A propos</a></p>
+			<p><a href="concept.html">Notre concept</a></p>
+			<p><a href="next-battle.html">Prochaine battle</a></p>
+		</div>
+		<div class="copyright_footer">
+			<p> &copy; 2Trash1Battle | Tous droits réservés</p>
+		</div>
+	</footer>
+
 	</body>
 </html>
