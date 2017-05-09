@@ -249,9 +249,13 @@ nav ul li a:hover {
 }
 .center_categories_next-battle{
     text-align: center;
+    font-family: bold;
 }
 .color_cate_next_battle{
     color: #86D4D9;
+}
+.top_point{
+    margin-top: 35px;
 }
 .size_img_next_battle{
     width: 88%;
@@ -270,14 +274,62 @@ nav ul li a:hover {
 .no_marge{
     margin: 0;
 }
+.join_us_next_battle{
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    margin-bottom: 20px;
 
+}
+.com_twitter{
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #f1eeee;
+    color: #232525;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px 5px 5px 5px;
 
-
-
-
-
-
-
+}
+.flex_end_column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.twitter_no_marge{
+    margin: 0;
+    padding-left: 3px;
+}
+.size_guillemet{
+    width: 20px;
+}
+.description_twitter{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 0;
+    background-color: #f1eeee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: #b8b6b6;
+    font-size: 11px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+.row_bleue{
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    height: 30px;
+    margin-bottom: 60px;
+}
 
 
 
@@ -575,6 +627,7 @@ footer > h3{
     background-position: right 6px top 6px;
     background-attachment: local;
     background-size: 30px 24px;
+    color: white;
 }
 
 
