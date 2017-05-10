@@ -331,6 +331,35 @@ nav ul li a:hover {
     margin-bottom: 60px;
 }
 
+/*----------------------*/
+/*---- CURR-BATTLE -----*/
+/*----------------------*/
+.flex_row_battle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.size_trash_next_battle{
+    width: 50px;
+}
+.google_place_trash{
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 88%;
+    height: 200px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
 
 
 
