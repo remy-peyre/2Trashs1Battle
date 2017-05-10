@@ -17,6 +17,7 @@
 		<!-- JS -->
 		<script src="../js/jquery-1.11.3.min.js"></script>
 		<script src="../js/script.js"></script>
+		<script src='../js/display_form.js'></script>
 	</head>
 	<body>
 	<nav>
@@ -54,15 +55,15 @@
 	<main>
 		<h1 class="title_center_contact">Contactez-nous!</h1>
 		<div class="flex_align_case_contact">
-			<p class="color_title_form">Entreprise</p>
+			<p class="color_title_form" id="display_company">Entreprise</p>
+			<p class="space_point" >	&bull;</p>
+			<p id="display_association">Association</p>
 			<p class="space_point">	&bull;</p>
-			<p>Association</p>
-			<p class="space_point">	&bull;</p>
-			<p>Particulier</p>
+			<p id="display_user">Particulier</p>
 		</div>
 
-		<div class="container" >
-			<form class="form" action="#">
+		<div class="container" id="display_form_company">
+			<form class="form" action="#" >
 				<fieldset class="form-fieldset ui-input __first">
 					<input type="text" id="nom" tabindex="0">
 					<label for="nom">
@@ -135,7 +136,7 @@
 			</form>
 		</div>
 
-		<div class="container none" >
+		<div class="container none"  id="display_form_association">
 			<form class="form" action="#">
 				<fieldset class="form-fieldset ui-input __first">
 					<input type="text" id="nom_assoc" tabindex="0">
@@ -185,8 +186,8 @@
 			</form>
 		</div>
 
-		<div class="container none" >
-			<form class="form" action="#">
+		<div class="container none" id="display_form_user">
+			<form class="form" action="#" >
 				<fieldset class="form-fieldset ui-input __first">
 					<input type="text" id="user_lastname" tabindex="0">
 					<label for="user_lastname">
