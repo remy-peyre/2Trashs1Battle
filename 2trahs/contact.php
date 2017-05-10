@@ -25,7 +25,7 @@
 			<li><a href="index.html">Accueil</a></li>
 			<li><a href="concept.html">Concept</a></li>
 			<li><a href="next-battle.html">Next Battle</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</nav>
 
@@ -62,79 +62,59 @@
 			<p id="display_user">Particulier</p>
 		</div>
 
-		<div class="container" id="display_form_company">
-			<form class="form" action="#" >
+
+
+		<div class="container" id="display_form_company" >
+			<form class="form" action="mail.php" method="post" name="form_company">
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="nom" tabindex="0">
+					<input type="text" id="nom" tabindex="0" name="company">
 					<label for="nom">
 						<span data-text="Nom d'entreprise *">Nom d'entreprise *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="secteur" tabindex="0">
+					<input type="text" id="secteur" tabindex="0" name="activity">
 					<label for="secteur">
 						<span data-text="Secteur d'activité">Secteur d'activité</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="Adresse" tabindex="0">
+					<input type="text" id="Adresse" tabindex="0" name="adresse">
 					<label for="Adresse">
 						<span data-text="Adresse">Adresse</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __second">
-					<input type="email" id="email" tabindex="0">
+					<input type="email" id="email" tabindex="0" name="email">
 					<label for="email">
 						<span data-text="E-mail">E-mail</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="subject" tabindex="0">
+					<input type="text" id="subject" tabindex="0" name="subject">
 					<label for="subject">
-						<span data-text="Sujet">Sujet</span>
+						<span data-text="Sujet" >Sujet</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="textarea" id="message" class="wordbreak" tabindex="0">
+					<input type="textarea" id="message" class="wordbreak" tabindex="0" name="message">
 					<label for="message">
 						<span data-text="Message">Message</span>
 					</label>
 				</fieldset>
 
-
-
-
-				<!--<fieldset class="form-fieldset ui-input __second">
-					<input type="email" id="email" tabindex="0">
-					<label for="email">
-						<span data-text="E-mail Address">E-mail Address</span>
-					</label>
-				</fieldset>
-
-				<fieldset class="form-fieldset ui-input __third">
-					<input type="password" id="new-password">
-					<label for="new-password">
-						<span data-text="New Password">New Password</span>
-					</label>
-				</fieldset>
-
-				<fieldset class="form-fieldset ui-input __fourth">
-					<input type="password" id="repeat-new-password">
-					<label for="repeat-new-password">
-						<span data-text="Repeat New Password">Repeat New Password</span>
-					</label>
-				</fieldset>-->
-
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer">
+					<input type="submit" class="btn" value="Envoyer" name="input_company">
 				</div>
 			</form>
 		</div>
+
+
 
 		<div class="container none"  id="display_form_association">
 			<form class="form" action="#">
