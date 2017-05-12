@@ -198,7 +198,7 @@ nav ul li a:hover {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     nav {
         display: none;
     }
@@ -224,7 +224,7 @@ nav ul li a:hover {
 /*----- INDEX -----*/
 /*-----------------*/
 .home_current_battle{
-    background-image: url(../css/indexfirst.png);
+    background-image: url(../css/illu_mobile/indexfirst.png);
     background-attachment: local;
     background-size: 100% 100%;
     height: 700px;
@@ -247,7 +247,7 @@ nav ul li a:hover {
     text-align: center;
 }
 .home_concept{
-    background-image: url(../css/indexconcept.png);
+    background-image: url(../css/illu_mobile/indexconcept.png);
     background-attachment: local;
     background-size: 100% 100%;
     height: 700px;
@@ -260,7 +260,7 @@ nav ul li a:hover {
     height: 700px;
 }
 .home_contact{
-    background-image: url(../css/indexcontact.png);
+    background-image: url(../css/illu_mobile/indexcontact.png);
     background-attachment: local;
     background-size: 100% 100%;
     height: 700px;
@@ -436,22 +436,9 @@ nav ul li a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------*/
+/*----------------*/
 /*----Contact-----*/
-/*---------------*/
+/*----------------*/
 
 .title_center_contact{
     text-align: center;
@@ -685,7 +672,7 @@ footer > h3{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 87%;
+    width: 100%;
 }
 .footer_submit{
     margin-top: 25px;
@@ -737,8 +724,147 @@ footer > h3{
     color: white;
 }
 
+/*---------------------*/
+/*------ TABLET -------*/
+/*---------------------*/
 
 
+@media screen and (min-width: 641px) {
+    /*----------------------*/
+    /*------  NAVBAR -------*/
+    /*----------------------*/
+    .menu-btn{
+        display: none;
+    }
+    nav {
+        display: flex;
+        background-color: #232525;
+        height: 80px;
+        align-items: center;
+    }
+    nav ul li a {
+        padding: 0;
+        font-size: 16px;
+        border-bottom: 0;
+        color: white;
+        margin-left: 9px;
+    }
+    nav ul {
+        text-align: center;
+        margin-left: 8%;
+    }
+    .size_logo {
+        width: 45px;
+        margin: 2px 0px 0px 11px;
+    }
+    .underline_link_menu{
+        border-bottom: 1px solid #86d4d9;
+        padding-bottom: 2px;
+        color: #86d4d9;
+    }
+
+    /*----------------------*/
+    /*------ FOOTER  -------*/
+    /*----------------------*/
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .footer_left_part{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .footer_right_part{
+        width: 30%;
+
+    }
+
+
+
+    /*----------------------*/
+    /*------ ACCUEIL -------*/
+    /*----------------------*/
+    .home_current_battle{
+        background-image: url(../css/illu_tab_desk/battledumoment.png);
+        height: 500px;
+    }
+    .button_home {
+        background-color: #933838;
+        width: 20%;
+    }
+    .home_concept{
+        background-image: url(../css/illu_tab_desk/notreconcept.png);
+        height: 500px;
+    }
+    .color_desk_concept{
+        background-color: #fc5454;
+    }
+    .home_next_battles{
+        background: #1ec1a6;
+        /*background-image: url(../css/illu_tab_desk/...);*/
+        height: 500px;
+    }
+    .home_contact{
+        background-image: url(../css/illu_tab_desk/nouscontacter.png);
+        height: 500px;
+    }
+    .color_desk_contact{
+        background-color: #fc5454;
+    }
+
+
+
+
+
+
+
+    /*.home_current_battle{
+        background-image: url(../css/indexfirst.png);
+        background-attachment: local;
+        background-size: 100% 100%;
+        height: 700px;
+    }
+    .flex_end_home_button{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .button_home{
+        padding: 12px 10px 12px 10px;
+        background-color: #86D4D9;
+        width: 33%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .home_concept{
+        background-image: url(../css/indexconcept.png);
+        background-attachment: local;
+        background-size: 100% 100%;
+        height: 700px;
+    }
+    .home_next_battles{
+        background: #1ec1a6;
+        background-image: url(../css/indexconcept.png);*
+        background-attachment: local;
+        background-size: 100% 100%;
+        height: 700px;
+    }
+    .home_contact{
+        background-image: url(../css/indexcontact.png);
+        background-attachment: local;
+        background-size: 100% 100%;
+        height: 700px;
+    }*/
+
+}
 
 
 
