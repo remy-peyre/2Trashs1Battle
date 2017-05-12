@@ -296,6 +296,17 @@ nav ul li a:hover {
     margin-top: 17px;
     margin-bottom: 40px;
 }
+.size_subtitle_concept_lastpart{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.question_concept{
+    font-weight: bold;
+}
+.find_trash{
+    display: none;
+}
 
 /*----------------------*/
 /*---- NEXT-BATTLE -----*/
@@ -401,6 +412,9 @@ nav ul li a:hover {
 .size_trash_next_battle{
     width: 115px;
     margin-top: 15px;
+}
+.size_name_team{
+    width: 75px;
 }
 .google_place_trash{
     display: flex;
@@ -836,10 +850,45 @@ footer > h3{
     }
 
 
-
-
-
-
+    /*----------------------*/
+    /*------ CONCEPT -------*/
+    /*----------------------*/
+    .flex_tablet_concept{
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .size_subtitle_concept{
+        margin-bottom: 20px;
+    }
+    .size_gif_concept{
+        width: 60%;
+        margin: 0;
+        height: 250px;
+    }
+    .second_p_conept{
+        width: 38%;
+        margin: 0;
+    }
+    .second_p_conept p{
+        margin-top: 0;
+    }
+    .find_trash{
+        display: flex;
+        justify-content: center;
+        background-color: #f94f4f;
+        padding: 12px 10px;
+        width: 27%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .color_find_trash {
+        color: white;
+    }
 
 
 
