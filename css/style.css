@@ -94,7 +94,8 @@ nav ul li a:hover {
 
 .btn-open:after {
     color: #86D4D9;
-    content: "\f394";
+    /*content: "\f394";*/
+    /*background-image: url("../css/trashopen.png");*/
     font-family: "Ionicons";
     -webkit-transition: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
@@ -110,7 +111,8 @@ nav ul li a:hover {
 .btn-close:after {
     color: #86D4D9;
     z-index: 99999999;
-    content: "\f2d7";
+    /*content: "\f2d7";*/
+    /*background-image: url("../css/trashopen.png");*/
     font-family: "Ionicons";
     -webkit-transition: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
@@ -122,7 +124,12 @@ nav ul li a:hover {
 .btn-close:hover {
     color: #86D4D9;
 }
-
+.size_img_menu_open{
+    width: 65px;
+}
+/*.size_img_menu_open:active{
+    background-image: url("../css/trashclose.png");
+}*/
 
 /* OVERLAY */
 

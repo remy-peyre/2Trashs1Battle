@@ -4,11 +4,19 @@ $(document).ready(function () {
         $(".overlay").fadeToggle(200);
         $(this).toggleClass('btn-open').toggleClass('btn-close');
         $('body').css('overflow','hidden');
+        $('.size_img_menu_open').attr("src","../css/trashopen.png");
+
+
     });
+
+
     $('.overlay').on('click', function () {
+        console.log("ok");
         $(".overlay").fadeToggle(200);
         $(".menu-btn #open_close").toggleClass('btn-open').toggleClass('btn-close');
         $('body').css('overflow','auto');
+        /*$('.size_img_menu_open').attr("src","../css/trashclose.png");*/
+
     });
     /*$('.menu a').on('click', function () {
         $(".overlay").fadeToggle(200);
@@ -21,10 +29,3 @@ $(document).ready(function () {
         $(this).toggleClass('filled', !!$(this).val());
     });
 });
-
-/*
-var $input = $('.form-fieldset > input');
-
-$input.blur(function (e) {
-    $(this).toggleClass('filled', !!$(this).val());
-});*/
