@@ -64,6 +64,8 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #86D4D9;
+    border-bottom: 1px solid #86d4d9;
+    padding-bottom: 2px;
 }
 
 
@@ -838,48 +840,28 @@ footer > h3{
 
 
 
-    /*.home_current_battle{
-        background-image: url(../css/indexfirst.png);
-        background-attachment: local;
-        background-size: 100% 100%;
-        height: 700px;
+
+
+
+
+    /*----------------------*/
+    /*------ CONTACT -------*/
+    /*----------------------*/
+    .flex_align_case_contact{
+        font-size: 1.2rem;
     }
-    .flex_end_home_button{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-end;
+    .container {
+        max-width: 500px;
     }
-    .button_home{
-        padding: 12px 10px 12px 10px;
-        background-color: #86D4D9;
-        width: 33%;
-        color: white;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
-        text-align: center;
+    .form{
+        margin-top: 15px;
     }
-    .home_concept{
-        background-image: url(../css/indexconcept.png);
-        background-attachment: local;
-        background-size: 100% 100%;
-        height: 700px;
+    .form-fieldset{
+        margin-bottom: 10px;
     }
-    .home_next_battles{
-        background: #1ec1a6;
-        background-image: url(../css/indexconcept.png);*
-        background-attachment: local;
-        background-size: 100% 100%;
-        height: 700px;
-    }
-    .home_contact{
-        background-image: url(../css/indexcontact.png);
-        background-attachment: local;
-        background-size: 100% 100%;
-        height: 700px;
-    }*/
+
+
+
 
 }
 
