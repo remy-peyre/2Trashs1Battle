@@ -50,7 +50,7 @@ else{
   </head>
 
   <body>
-    <form name="form_survey" action="test.php" method="post">
+    <form name="form_survey" action="sondage.php" method="post">
       <input type="radio" name="choice_survey" value="caca">caca
       <input type="radio" name="choice_survey" value="pipi">pipi
       <br>
