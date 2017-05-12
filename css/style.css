@@ -672,7 +672,8 @@ footer > h3{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 94%;
+    margin-left: 3%;
 }
 .footer_submit{
     margin-top: 25px;
@@ -799,8 +800,16 @@ footer > h3{
         background-image: url(../css/illu_tab_desk/notreconcept.png);
         height: 500px;
     }
-    .color_desk_concept{
+    .color_desk_concept {
         background-color: #fc5454;
+        margin-right: 10%;
+    }
+    .flex_button_concept_tablet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
     }
     .home_next_battles{
         background: #1ec1a6;
@@ -811,10 +820,18 @@ footer > h3{
         background-image: url(../css/illu_tab_desk/nouscontacter.png);
         height: 500px;
     }
-    .color_desk_contact{
+    .color_desk_contact {
         background-color: #fc5454;
+        margin-bottom: 25%;
+        margin-right: 5%;
     }
-
+    .flex_button_contact_tablet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
 
 
