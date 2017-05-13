@@ -94,6 +94,8 @@ nav ul li a:hover {
     margin-top: 5px;
 }
 
+
+
 .btn-open:after {
     color: #86D4D9;
     /*content: "\f394";*/
@@ -1186,6 +1188,17 @@ footer > h3{
     .marge_square{
         margin-bottom: 30px;
     }
+.color_title_form:hover{
+    cursor: pointer;
+}
+
+.display_association:hover{
+    cursor: pointer;
+}
+
+.display_user:hover{
+    cursor: pointer;
+}
 
 }
 

@@ -30,7 +30,7 @@
 		<ul>
 			<li><a href="index.php">Accueil</a></li>
 			<li><a href="current_battle.php">Battle du moment</a></li>
-			<li><a href="contact.php">Notre concept</a></li>
+			<li><a href="concept.php">Notre concept</a></li>
 			<li><a href="next-battle.php">Prochaines battles</a></li>
 			<li><a class="underline_link_menu" href="contact.php">Contact</a></li>
 		</ul>
@@ -74,42 +74,42 @@
 		<div class="container" id="display_form_company">
 			<form class="form" action="#" >
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="nom" tabindex="0">
+					<input type="text" id="nom" tabindex="0" name="input_form_contact_one">
 					<label for="nom">
 						<span data-text="Nom d'entreprise *">Nom d'entreprise *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="secteur" tabindex="0">
+					<input type="text" id="secteur" tabindex="0" name="input_form_contact_two">
 					<label for="secteur">
 						<span data-text="Secteur d'activité">Secteur d'activité</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="Adresse" tabindex="0">
+					<input type="text" id="Adresse" tabindex="0" name="input_form_contact_three">
 					<label for="Adresse">
 						<span data-text="Adresse">Adresse</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __second">
-					<input type="email" id="email" tabindex="0">
+					<input type="email" id="email" tabindex="0" name="input_form_contact_four">
 					<label for="email">
 						<span data-text="E-mail">E-mail</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="subject" tabindex="0">
+					<input type="text" id="subject" tabindex="0" name="input_form_contact_five">
 					<label for="subject">
 						<span data-text="Sujet">Sujet</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="textarea" id="message" class="wordbreak" tabindex="0">
+					<input type="textarea" id="message" class="wordbreak" tabindex="0" name="input_form_contact_six">
 					<label for="message">
 						<span data-text="Message">Message</span>
 					</label>
@@ -124,42 +124,42 @@
 		<div class="container none"  id="display_form_association">
 			<form class="form" action="#">
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="nom_assoc" tabindex="0">
+					<input type="text" id="nom_assoc" tabindex="0" name="input_form_contact_one">
 					<label for="nom_assoc">
 						<span data-text="Nom de l'association *">Nom de l'association *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="cause" tabindex="0">
+					<input type="text" id="cause" tabindex="0" name="input_form_contact_two">
 					<label for="cause">
 						<span data-text="Cause défendue">Cause défendue</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="Adresse_assoc" tabindex="0">
+					<input type="text" id="Adresse_assoc" tabindex="0" name="input_form_contact_three">
 					<label for="Adresse_assoc">
 						<span data-text="Adresse">Adresse</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __second">
-					<input type="email" id="email_assoc" tabindex="0">
+					<input type="email" id="email_assoc" tabindex="0" name="input_form_contact_four">
 					<label for="email_assoc">
 						<span data-text="E-mail">E-mail</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="subject_assoc" tabindex="0">
+					<input type="text" id="subject_assoc" tabindex="0" name="input_form_contact_five">
 					<label for="subject_assoc">
 						<span data-text="Sujet">Sujet</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="textarea" id="message_assoc" class="wordbreak" tabindex="0">
+					<input type="textarea" id="message_assoc" class="wordbreak" tabindex="0" name="input_form_contact_six">
 					<label for="message_assoc">
 						<span data-text="Message">Message</span>
 					</label>
@@ -174,42 +174,42 @@
 		<div class="container none" id="display_form_user">
 			<form class="form" action="#" >
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="user_lastname" tabindex="0">
+					<input type="text" id="user_lastname" tabindex="0" name="input_form_contact_one">
 					<label for="user_lastname">
 						<span data-text="Nom *">Nom *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="user_firstname" tabindex="0">
+					<input type="text" id="user_firstname" tabindex="0" name="input_form_contact_two">
 					<label for="user_firstname">
 						<span data-text="Prénom *">Prénom *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="user_age" tabindex="0">
+					<input type="text" id="user_age" tabindex="0" name="input_form_contact_three">
 					<label for="user_age">
 						<span data-text="Age *">Age *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __second">
-					<input type="email" id="email_user" tabindex="0">
+					<input type="email" id="email_user" tabindex="0" name="input_form_contact_four">
 					<label for="email_user">
 						<span data-text="E-mail *">E-mail *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="subject_user" tabindex="0">
+					<input type="text" id="subject_user" tabindex="0" name="input_form_contact_five">
 					<label for="subject_user">
 						<span data-text="Sujet *">Sujet *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="textarea" id="message_user" class="wordbreak" tabindex="0">
+					<input type="textarea" id="message_user" class="wordbreak" tabindex="0" name="input_form_contact_six">
 					<label for="message_user">
 						<span data-text="Message *">Message *</span>
 					</label>
