@@ -28,11 +28,11 @@
 			</a>
 		</div>
 		<ul>
-			<li><a href="index.html">Accueil</a></li>
-			<li><a class="underline_link_menu" href="current_battle.html">Battle du moment</a></li>
-			<li><a href="concept.html">Notre concept</a></li>
-			<li><a href="next-battle.html">Prochaines battles</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="index.php">Accueil</a></li>
+			<li><a class="underline_link_menu" href="current_battle.php">Battle du moment</a></li>
+			<li><a href="concept.php">Notre concept</a></li>
+			<li><a href="next-battle.php">Prochaines battles</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</nav>
 
@@ -134,11 +134,11 @@
 			</form>
 		</div>
 		<div class="link_footer footer_right_part">
-			<p><a href="index.html">Accueil</a></p>
-			<p><a href="current_battle.html">Battle du moment</a></p>
-			<p><a href="concept.html">Notre concept</a></p>
-			<p><a href="next-battle.html">Prochaine battle</a></p>
-			<p><a href="contact.html">Nous contacter</a></p>
+			<p><a href="index.php">Accueil</a></p>
+			<p><a href="current_battle.php">Battle du moment</a></p>
+			<p><a href="concept.php">Notre concept</a></p>
+			<p><a href="next-battle.php">Prochaine battle</a></p>
+			<p><a href="contact.php">Nous contacter</a></p>
 		</div>
 		<div class="copyright_footer">
 			<p> &copy; 2Trash1Battle | Tous droits réservés</p>
