@@ -53,7 +53,7 @@
     <div class="overlay">
         <div class="menu">
             <ul>
-                <li><a href="#">Acceuil</a>
+                <li><a href="#">Accueil</a>
                     <ul>
                         <li><a href="current_battle.php">Battle du moment</a></li>
                         <li><a href="concept.php">Concept</a></li>
