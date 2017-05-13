@@ -3,7 +3,6 @@ $(document).ready(function () {
     $(".menu-btn #open_close").click(function () {
         $(".overlay").fadeToggle(200);
         $(this).toggleClass('btn-open').toggleClass('btn-close');
-        $('body').css('overflow','hidden');
         $('.size_img_menu_open').attr("src","../css/trashopen.png");
 
 
@@ -14,8 +13,7 @@ $(document).ready(function () {
         console.log("ok");
         $(".overlay").fadeToggle(200);
         $(".menu-btn #open_close").toggleClass('btn-open').toggleClass('btn-close');
-        $('body').css('overflow','auto');
-        /*$('.size_img_menu_open').attr("src","../css/trashclose.png");*/
+        $('.size_img_menu_open').attr("src","../css/trashclose.png");
 
     });
     /*$('.menu a').on('click', function () {
