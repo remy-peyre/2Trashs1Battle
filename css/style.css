@@ -1097,6 +1097,50 @@ footer > h3{
         margin-left: 44%;
     }
 
+    /*----------------------*/
+    /*------ ACCUEIL -------*/
+    /*----------------------*/
+    .home_current_battle{
+        height: 600px;
+    }
+    .button_home {
+        width: 14%;
+    }
+    .home_concept{
+        height: 600px;
+    }
+    .color_desk_concept {
+        margin-right: 7%;
+        margin-bottom: 68px;
+    }
+    .flex_button_concept_tablet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .home_next_battles{
+        background: #1ec1a6;
+        /*background-image: url(../css/illu_tab_desk/...);*/
+        height: 600px;
+    }
+    .home_contact{
+        height: 600px;
+    }
+    .color_desk_contact {
+        background-color: #fc5454;
+        margin-bottom: 25%;
+        margin-right: 5%;
+    }
+    .flex_button_contact_tablet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
 
 
 
