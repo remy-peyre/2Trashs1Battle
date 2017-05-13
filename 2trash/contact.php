@@ -20,6 +20,7 @@
 		<script src="../js/ajax_news.js"></script>
 		<script src="../js/ajax_form_company.js"></script>
 		<script src="../js/ajax_form_assoc.js"></script>
+		<script src="../js/ajax_user.js"></script>
 		<script src='../js/display_form.js'></script>
 	</head>
 	<body>
@@ -176,51 +177,51 @@
 		</div>
 
 		<div class="container none" id="display_form_user">
-			<form class="form" action="#" >
+			<form class="form" action="mail.php" id="form_submit_user" method="post" >
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="user_lastname" tabindex="0" name="input_form_contact_one">
+					<input type="text" id="name_user" maxlength="25" tabindex="0" name="input_form_contact_one">
 					<label for="user_lastname">
 						<span data-text="Nom *">Nom *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="user_firstname" tabindex="0" name="input_form_contact_two">
+					<input type="text" id="activity_user" tabindex="0" maxlength="20" name="input_form_contact_two">
 					<label for="user_firstname">
 						<span data-text="Prénom *">Prénom *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="user_age" tabindex="0" name="input_form_contact_three">
+					<input type="text" id="adress_user" tabindex="0" maxlength="50" name="input_form_contact_three">
 					<label for="user_age">
 						<span data-text="Age *">Age *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __second">
-					<input type="email" id="email_user" tabindex="0" name="input_form_contact_four">
+					<input type="text" id="email_user" tabindex="0" name="input_form_contact_four">
 					<label for="email_user">
 						<span data-text="E-mail *">E-mail *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="subject_user" tabindex="0" name="input_form_contact_five">
+					<input type="text" id="subject_user" tabindex="0" maxlength="60"  name="input_form_contact_five">
 					<label for="subject_user">
 						<span data-text="Sujet *">Sujet *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="textarea" id="message_user" class="wordbreak" tabindex="0" name="input_form_contact_six">
+					<input type="textarea" id="body_user" class="wordbreak" tabindex="0" name="input_form_contact_six">
 					<label for="message_user">
 						<span data-text="Message *">Message *</span>
 					</label>
 				</fieldset>
 
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer" id="form_submit_user">
+					<input type="submit" class="btn" value="Envoyer" name="form_submit_user">
 				</div>
 			</form>
 		</div>
