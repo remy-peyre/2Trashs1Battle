@@ -21,7 +21,7 @@
 	<body>
 	<nav>
 		<div>
-			<a href="index.html">
+			<a href="index.php">
 				<img class="size_logo" src="../css/Logo.png" alt="logo">
 			</a>
 		</div>
@@ -36,7 +36,7 @@
 
 	<div class="menu-btn">
 		<div>
-			<a href="index.html">
+			<a href="index.php">
 				<img class="size_logo" src="../css/Logo.png" alt="logo">
 			</a>
 		</div>
@@ -50,9 +50,9 @@
 			<ul>
 				<li><a href="#">Next Battle</a>
 					<ul>
-						<li><a href="concept.html">Accueil</a></li>
-						<li><a href="current_battle.html">Battle du moment</a></li>
-						<li><a href="concept.html">Concept</a></li>
+						<li><a href="concept.php">Accueil</a></li>
+						<li><a href="current_battle.php">Battle du moment</a></li>
+						<li><a href="concept.php">Concept</a></li>
 						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</li>

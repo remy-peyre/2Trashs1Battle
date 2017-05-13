@@ -25,12 +25,12 @@
     
     <nav>
         <div>
-            <a href="index.html">
+            <a href="index.php">
                 <img class="size_logo" src="../css/Logo.png" alt="logo">
             </a>
         </div>
         <ul>
-            <li><a class="underline_link_menu" href="index.html">Accueil</a></li>
+            <li><a class="underline_link_menu" href="index.php">Accueil</a></li>
             <li><a href="current_battle.php">Battle du moment</a></li>
             <li><a href="concept.php">Notre concept</a></li>
             <li><a href="next-battle.php">Prochaines battles</a></li>
@@ -40,7 +40,7 @@
 
     <div class="menu-btn">
         <div>
-            <a href="index.html">
+            <a href="index.php">
                 <img class="size_logo" src="../css/Logo.png" alt="logo">
             </a>
         </div>
@@ -54,9 +54,9 @@
             <ul>
                 <li><a href="#">Acceuil</a>
                     <ul>
-                        <li><a href="current_battle.html">Battle du moment</a></li>
-                        <li><a href="concept.html">Concept</a></li>
-                        <li><a href="next-battle.html">Prochaines battles</a></li>
+                        <li><a href="current_battle.php">Battle du moment</a></li>
+                        <li><a href="concept.php">Concept</a></li>
+                        <li><a href="next-battle.php">Prochaines battles</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </li>
@@ -66,17 +66,17 @@
     
     <main>
         <section class="home_current_battle flex_end_home_button">
-            <a class="button_home" href="current_battle.html">
+            <a class="button_home" href="current_battle.php">
                 <div>Battle du moment</div>
             </a>
         </section>
         <section class="home_concept flex_end_home_button flex_button_concept_tablet">
-            <a class="button_home color_desk_concept" href="concept.html">
+            <a class="button_home color_desk_concept" href="concept.php">
                 <div>Notre concept</div>
             </a>
         </section>
         <section class="home_next_battles flex_end_home_button">
-            <a class="button_home" href="next-battle.html">
+            <a class="button_home" href="next-battle.php">
                 <div>Prochaine battle</div>
             </a>
         </section>
