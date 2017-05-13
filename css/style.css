@@ -576,24 +576,24 @@ display: none;
     transform: scaleX(1);
     transform-origin: left;
 }
-.ui-input input:focus + label span::after,
+/*.ui-input input:focus + label span::after,
 .ui-input input.error + label span::after,
 .ui-input input:invalid + label span::after,
 .ui-input input.filled + label span::after {
     background-image: linear-gradient(to right, white 50%, rgba(255, 255, 255, 0) 0%);
     background-position: 0% 50%;
-}
+}*/
 
 .ui-input input.filled {
-    color: #ffffff;
+    color: #86D4D9;
 }
 .ui-input input.filled + label::after {
     background-color: #ffffff;
 }
-.ui-input input.filled + label span::after {
+/*.ui-input input.filled + label span::after {
     background-image: linear-gradient(to right, #ffffff 50%, rgba(255, 255, 255, 0) 0%);
     background-position: 0% 50%;
-}
+}*/
 
 .ui-input input:focus {
     color: #86D4D9;
