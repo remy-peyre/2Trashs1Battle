@@ -446,7 +446,7 @@ nav ul li a:hover {
 }
 .button{
     padding: 12px 10px 12px 10px;
-    background-color: #86D4D9;
+    background-color: #f94f4f;
     width: 131px;
     color: white;
     margin-bottom: 20px;
@@ -459,7 +459,9 @@ nav ul li a:hover {
 .stats{
     display: none;
 }
-
+.second_part_square{
+display: none;
+}
 
 
 /*----------------*/
@@ -1015,15 +1017,8 @@ footer > h3{
 
 
     /*----------------------*/
-    /*---- CUR-BATTTLE -----*/
+    /*---- NEXTBATTTLE -----*/
     /*----------------------*/
-
-
-
-
-
-
-
 
     .join_us_next_battle {
         margin-bottom: 35px;
@@ -1141,10 +1136,56 @@ footer > h3{
         align-items: center;
     }
 
-
-
-
-
+    /*----------------------*/
+    /*---- CUR-BATTTLE -----*/
+    /*----------------------*/
+    .flex_row_battle {
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .size_trash_next_battle {
+        width: 225px;
+    }
+    .lightning {
+        width: 46px;
+        margin-top: 80px;
+    }
+    .width_total {
+        width: 100%;
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    .size_name_team {
+        width: 145px;
+    }
+    .google_place_trash {
+        height: 425px;
+    }
+    .square_last_battle {
+        height: 350px;
+        margin-bottom: 50px;
+        width: 50%;
+    }
+    .square_end_current{
+        display: inline-flex;
+        width: 100%;
+    }
+    .second_part_square{
+        width: 50%;
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .square{
+        width: 70%;
+        margin-left: auto;
+        height: 160px;
+        background-color: #ffa061;
+    }
+    .marge_square{
+        margin-bottom: 30px;
+    }
 
 }
 

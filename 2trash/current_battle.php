@@ -97,7 +97,7 @@
 						<div class="stats_serpan"></div>
 					</div>
 				</div>
-				<div class="center">
+				<div class="center width_total">
 					<p> Grâce à vous, 3kg de mégots vont pouvoir être recylclés!</p>
 				</div>
 				<div class="center_title_google">
@@ -108,10 +108,15 @@
 				</div>
 			</div>
 
-			<h2 class="center_title_concept">DERNIERE BATTLE</h2>
+			<h2 class="center_title_concept">DERNIERES BATTLES</h2>
 
-			<div class="square_last_battle"></div>
-
+            <div class="square_end_current">
+                <div class="square_last_battle"></div>
+                <div class="second_part_square">
+                     <div class="square marge_square"></div>
+                     <div class="square "></div>
+                </div>
+            </div>
 			<div class="button">
 				Toutes les battles
 			</div>
