@@ -228,11 +228,11 @@
 			<h3>Newsletter</h3>
 			<p class="center_p_footer">Soyez le premier à être au courant de notre actualité !</p>
 
-			<div id="result">
+			<div id="result_news">
 			</div>
-			<form class="form_footer" method="post" action="newsletter.php" id="form_news">
+			<form class="form_footer" method="post" action="newsletter.php" >
 				<input class="mail_footer" type="text" id="email_form_news" name="destination" placeholder="email@example.com">
-				<input class="footer_submit" type="submit" class="btn" value="S'inscrire">
+				<input class="footer_submit" type="submit" class="btn" value="S'inscrire" id="form_news">
 			</form>
 		</div>
 		<div class="link_footer footer_right_part">

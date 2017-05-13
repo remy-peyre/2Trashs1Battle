@@ -14,9 +14,11 @@ $(document).ready(function () {
                 cache: false,
                 success: function (result) {
                     if(result=="Mailer Error: "){
-                            aler("ok");
+                        $("#result_news").css("display", "block");
+                        $( "#result_news" ).append('../css/trashclose.png');
                     }
                     else{
+                        $("#result_news").css("display", "block");
                         $( "#result_news" ).append('');
                     }
                 },
