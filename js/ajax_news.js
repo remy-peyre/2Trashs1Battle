@@ -8,8 +8,8 @@ $(document).ready(function () {
             $( "#result_news" ).empty();
             $("#result_news").css("display", "none");
             $("#result_news").css("display", "-webkit-box");
-            $("#result_news").css("width", "293px");
-            $( "#result_news" ).append('<p style="color:white;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
+            $("#result_news").css("width", "220px");
+            $( "#result_news" ).append('<p style="color:white;">Email non valide :( </p><img style="width:65px;" src="../css/sad.png">');
         }
         else {
             $.ajax({
