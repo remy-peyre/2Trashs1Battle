@@ -92,7 +92,12 @@
 			</p>
 		</div>
 		<div class="all_struct_twitter">
-			<div class="com_twitter">
+
+		<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">test tweet via localhost</p>&mdash; Kutsuhime φ (@leonakali) 
+		<a href="https://twitter.com/leonakali/status/863510778636365824">13 mai 2017</a></blockquote>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		
+			<!--<div class="com_twitter">
 				<div class="size_guillemet">
 					<img class="size_guillemet" src="../css/Guillemets1.png">
 				</div>
@@ -111,7 +116,7 @@
 			</div>
 			<div class="row_bleue">
 				coucou
-			</div>
+			</div>-->
 		</div>
 	</main>
 
