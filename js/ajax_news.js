@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#form_news").click(function () {
-        var email = $("#email").val();
+        var email = $("#email_form_news").val();
 
         var dataString = 'destination=' + email  ;
         if (email == '') {
@@ -14,10 +14,10 @@ $(document).ready(function () {
                 cache: false,
                 success: function (result) {
                     if(result=="Mailer Error: "){
-                            $( "#content_container" ).append( '<p class="error"><span>Username already exist</span></p>');
+                            aler("ok");
                     }
                     else{
-                        window.location.replace("?action=login");
+                        $( "#result_news" ).append('');
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) { 
