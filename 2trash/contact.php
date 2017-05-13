@@ -18,6 +18,7 @@
 		<script src="../js/jquery-1.11.3.min.js"></script>
 		<script src="../js/script.js"></script>
 		<script src="../js/ajax_news.js"></script>
+		<script src="../js/ajax_form_company.js"></script>
 		<script src='../js/display_form.js'></script>
 	</head>
 	<body>
@@ -63,6 +64,8 @@
 	</div>
 	<main>
 		<h1 class="title_center_contact">Contactez-nous!</h1>
+
+		</div>
 		<div class="flex_align_case_contact">
 			<p class="color_title_form" id="display_company">Entreprise</p>
 			<p class="space_point" >	&bull;</p>
@@ -72,51 +75,51 @@
 		</div>
 
 		<div class="container" id="display_form_company">
-			<form class="form" action="#" >
+			<form class="form" action="mail.php" id="form_submit_company" method="post">
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="nom" tabindex="0" name="input_form_contact_one">
+					<input type="text" id="name_company" maxlength="25" tabindex="0" name="input_form_contact_one">
 					<label for="nom">
 						<span data-text="Nom d'entreprise *">Nom d'entreprise *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="secteur" tabindex="0" name="input_form_contact_two">
+					<input type="text" id="activity_company" tabindex="0" maxlength="20" name="input_form_contact_two">
 					<label for="secteur">
 						<span data-text="Secteur d'activité">Secteur d'activité</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="Adresse" tabindex="0" name="input_form_contact_three">
+					<input type="text" id="adress_company" tabindex="0" maxlength="50" name="input_form_contact_three">
 					<label for="Adresse">
 						<span data-text="Adresse">Adresse</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __second">
-					<input type="email" id="email" tabindex="0" name="input_form_contact_four">
+					<input type="text" id="email_company" tabindex="0" name="input_form_contact_four">
 					<label for="email">
 						<span data-text="E-mail">E-mail</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="text" id="subject" tabindex="0" name="input_form_contact_five">
+					<input type="text" id="subject_company" tabindex="0" maxlength="60"  name="input_form_contact_five">
 					<label for="subject">
 						<span data-text="Sujet">Sujet</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
-					<input type="textarea" id="message" class="wordbreak" tabindex="0" name="input_form_contact_six">
+					<input type="textarea" id="body_company" class="wordbreak" tabindex="0" name="input_form_contact_six">
 					<label for="message">
 						<span data-text="Message">Message</span>
 					</label>
 				</fieldset>
 
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer">
+					<input type="submit" class="btn" value="Envoyer" name="form_submit_company">
 				</div>
 			</form>
 		</div>
@@ -166,7 +169,7 @@
 				</fieldset>
 
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer">
+					<input type="submit" class="btn" value="Envoyer" id="form_submit_assoc">
 				</div>
 			</form>
 		</div>
@@ -216,11 +219,11 @@
 				</fieldset>
 
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer">
+					<input type="submit" class="btn" value="Envoyer" id="form_submit_user">
 				</div>
 			</form>
 		</div>
-
+		<div id="result_form_contact" class="bounce">
 	</main>
 
 	<footer>
