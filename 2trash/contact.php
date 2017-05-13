@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>Test</title>
+		<title>2 Trashs 1 Battle</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=0.2">
 
@@ -17,6 +17,7 @@
 		<!-- JS -->
 		<script src="../js/jquery-1.11.3.min.js"></script>
 		<script src="../js/script.js"></script>
+		<script src="../js/ajax_news.js"></script>
 		<script src='../js/display_form.js'></script>
 	</head>
 	<body>
@@ -29,7 +30,7 @@
 		<ul>
 			<li><a href="index.html">Accueil</a></li>
 			<li><a href="current_battle.html">Battle du moment</a></li>
-			<li><a href="concept.html">Notre concept</a></li>
+			<li><a href="contact.php">Notre concept</a></li>
 			<li><a href="next-battle.html">Prochaines battles</a></li>
 			<li><a class="underline_link_menu" href="contact.html">Contact</a></li>
 		</ul>
@@ -53,7 +54,7 @@
 					<ul>
 						<li><a href="index.html">Accueil</a></li>
 						<li><a href="current_battle.html">Battle du moment</a></li>
-						<li><a href="concept.html">Concept</a></li>
+						<li><a href="contact.php">Concept</a></li>
 						<li><a href="next-battle.html">Next Battle</a></li>
 					</ul>
 				</li>
@@ -227,15 +228,15 @@
 			<h3>Newsletter</h3>
 			<p class="center_p_footer">Soyez le premier à être au courant de notre actualité !</p>
 
-			<form class="form_footer">
-				<input class="mail_footer" type="email" placeholder="email@example.com">
+			<form class="form_footer" method="post" action="newsletter.php" id="form_news">
+				<input class="mail_footer" type="text" id="email" name="destination" placeholder="email@example.com">
 				<input class="footer_submit" type="submit" class="btn" value="S'inscrire">
 			</form>
 		</div>
 		<div class="link_footer footer_right_part">
 			<p><a href="index.html">Accueil</a></p>
 			<p><a href="current_battle.html">Battle du moment</a></p>
-			<p><a href="concept.html">Notre concept</a></p>
+			<p><a href="contact.php">Notre concept</a></p>
 			<p><a href="next-battle.html">Prochaine battle</a></p>
 			<p><a href="contact.html">Nous contacter</a></p>
 		</div>
