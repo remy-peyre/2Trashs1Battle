@@ -14,12 +14,12 @@ $(document).ready(function () {
                 cache: false,
                 success: function (result) {
                     if(result=="Mailer Error: "){
-                        $("#result_news").css("display", "block");
+                        $("#result_news").css("display", "-webkit-box");
                         $( "#result_news" ).append('../css/trashclose.png');
                     }
                     else{
-                        $("#result_news").css("display", "block");
-                        $( "#result_news" ).append('');
+                        $("#result_news").css("display", "-webkit-box");
+                        $( "#result_news" ).append('<p style="color:white;">Vous êtes bien inscrits ! </p><img style="width:80px;" src="../css/trashclose.png">');
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) { 

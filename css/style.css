@@ -621,11 +621,14 @@ nav ul li a:hover {
 }
 
 #result_news{
+margin-right: auto;
+    margin-left: auto;
     display: none;
     -webkit-animation-duration: 1s;
-    animation-duration: 1s; 
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both; 
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    width: 237px;
 }
 
 
