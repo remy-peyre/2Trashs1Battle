@@ -806,7 +806,6 @@ footer > h3{
     }
     .footer_right_part{
         width: 30%;
-
     }
 
 
@@ -1024,12 +1023,58 @@ footer > h3{
     }
 
 
-
-
 }
 
 
+@media screen and (min-width: 960px) {
 
+    /*----------------------*/
+    /*------  NAVBAR -------*/
+    /*----------------------*/
+
+
+    nav ul li a {
+        font-size: 18px;
+        margin-left: 13px;
+    }
+    nav ul {
+        margin-left: 20%;
+    }
+    .size_logo {
+        margin-left: 16px;
+    }
+
+    /*----------------------*/
+    /*------ FOOTER  -------*/
+    /*----------------------*/
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .footer_left_part{
+        width: 38%;
+    }
+
+    .footer_right_part {
+        width: 52%;
+        display: inline-flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        padding-right: 21px;
+    }
+    .copyright_footer {
+        margin-left: 44%;
+    }
+
+
+
+
+
+
+}
 
 
 
