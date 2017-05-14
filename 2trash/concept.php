@@ -68,7 +68,7 @@
 	<main>
 		<section class="concept">
 			<h2 class="center_title_concept">QUI SOMMES NOUS ?</h2>
-			<p>
+			<p class="first_p_concept">
 				Un joyeux groupe d’étudiants du web mélangeant 3 spécialités, design, développement et marketing.
 				<br>
 				Nous avons cherché une solution rapide et efficace face à la pollution
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 			<h3 class="size_subtitle_concept_lastpart">Que faisons-nous de ces mégots ?</h3>
-			<div>
+			<div class="third_p_concept">
 				<p>
 					<span class="question_concept">Et si on vous dit qu’il est possible de recycler les mégots de cigarette ?</span>
 				</p>
