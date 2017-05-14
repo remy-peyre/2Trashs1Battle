@@ -18,7 +18,9 @@
 		<script src="../js/jquery-1.11.3.min.js"></script>
 		<script src="../js/script.js"></script>
 		<script src="../js/ajax_news.js"></script>
-	</head>
+        <script src='../js/display_section.js'></script>
+
+    </head>
 	<body>
 	<nav>
 		<div>
@@ -63,22 +65,23 @@
 
 	<main>
 		<div class="flex_align_case_contact margin_next_battle">
-			<div class="center_categories_next-battle color_cate_next_battle">
+			<div id="display_next_battle" class="center_categories_next-battle color_cate_next_battle">
 				<p>Prochaine</p>
 				<p>&nbsp;battle</p>
 			</div>
 			<p class="space_point top_point">	&bull;</p>
-			<div class="center_categories_next-battle">
+			<div id="display_old_battle" class="center_categories_next-battle">
 				<p>Anciennes</p>
 				<p>&nbsp;battles</p>
 			</div>
 			<p class="space_point top_point">	&bull;</p>
-			<div class="center_categories_next-battle">
+			<div id="display_vote" class="center_categories_next-battle">
 				<p>Place au</p>
 				<p>&nbsp;vote</p>
 			</div>
 		</div>
-        <section class="next_battle">
+
+        <section id="display_section_next_battle">
             <div class="size_img_next_battle">
 
             </div>
@@ -119,11 +122,11 @@
                 </div>-->
             </div>
         </section>
-        <section class="old_battle">
-
+        <section id="display_section_old_battle">
+            <p>coucou old battle</p>
         </section>
-        <section class="vote">
-
+        <section id="display_section_vote">
+            <p>coucou vote</p>
         </section>
 
 	</main>
