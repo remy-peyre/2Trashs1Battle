@@ -57,7 +57,7 @@
 					<ul>
 						<li><a href="index.php">Accueil</a></li>
 						<li><a href="current_battle.php">Battle du moment</a></li>
-						<li><a href="contact.php">Concept</a></li>
+						<li><a href="concept.php">Concept</a></li>
 						<li><a href="next-battle.php">Next Battle</a></li>
 					</ul>
 				</li>
@@ -243,7 +243,7 @@
 		<div class="link_footer footer_right_part">
 			<p><a href="index.php">Accueil</a></p>
 			<p><a href="current_battle.php">Battle du moment</a></p>
-			<p><a href="contact.php">Notre concept</a></p>
+			<p><a href="concept.php">Notre concept</a></p>
 			<p><a href="next-battle.php">Prochaine battle</a></p>
 			<p><a href="contact.php">Nous contacter</a></p>
 		</div>

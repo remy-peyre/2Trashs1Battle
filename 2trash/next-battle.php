@@ -93,9 +93,8 @@
 		</div>
 		<div class="all_struct_twitter">
 
-		<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">test tweet via localhost</p>&mdash; Kutsuhime φ (@leonakali) 
-		<a href="https://twitter.com/leonakali/status/863510778636365824">13 mai 2017</a></blockquote>
-		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Plus d’excuse pour ne pas jeter ses mégots dans nos super poubelles !<br>Aujourd’hui, Serpentard VS Gryffondor on compte sur vous ;) <a href="https://twitter.com/hashtag/%C3%A9cologie?src=hash">#écologie</a></p>&mdash; 2 Trash 1 Battle (@2Trash1Battle) <a href="https://twitter.com/2Trash1Battle/status/863729789278056450">14 mai 2017</a></blockquote>
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		
 			<!--<div class="com_twitter">
 				<div class="size_guillemet">
