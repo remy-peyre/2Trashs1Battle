@@ -78,45 +78,54 @@
 				<p>&nbsp;vote</p>
 			</div>
 		</div>
-		<div class="size_img_next_battle">
+        <section class="next_battle">
+            <div class="size_img_next_battle">
 
-		</div>
-		<div class="center_categories_next-battle bold">
-			<p class="no_marge">Rejoignez-nous le Jeudi 18 Mai pour une</p>
-			<p class="no_marge">&nbsp;battle du tonnerre!</p>
-		</div>
-		<div class="join_us_next_battle">
-			<p>
-				Rejoignez-nous dès aujourd’hui pour suivre toute notre actualité.
-				Une invitaiton au rire et à la bonne humeur !
-			</p>
-		</div>
-		<div class="all_struct_twitter">
+            </div>
+            <div class="center_categories_next-battle bold">
+                <p class="no_marge">Rejoignez-nous le Jeudi 18 Mai pour une</p>
+                <p class="no_marge">&nbsp;battle du tonnerre!</p>
+            </div>
+            <div class="join_us_next_battle">
+                <p>
+                    Rejoignez-nous dès aujourd’hui pour suivre toute notre actualité.
+                    Une invitaiton au rire et à la bonne humeur !
+                </p>
+            </div>
+            <div class="all_struct_twitter">
 
-			<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Plus d’excuse pour ne pas jeter ses mégots dans nos super poubelles !<br>Aujourd’hui, Serpentard VS Gryffondor on compte sur vous ;) <a href="https://twitter.com/hashtag/%C3%A9cologie?src=hash">#écologie</a></p>&mdash; 2 Trash 1 Battle (@2Trash1Battle) <a href="https://twitter.com/2Trash1Battle/status/863729789278056450">14 mai 2017</a></blockquote>
-			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-		
-			<!--<div class="com_twitter">
-				<div class="size_guillemet">
-					<img class="size_guillemet" src="../css/Guillemets1.png">
-				</div>
-				<div>
-					<p class="twitter_no_marge">
-						Plus d’excuse pour ne pas jeter ses mégots dans nos super poubelles !
-						Aujourd’hui, Serpentard VS Gryffondor on compte sur vous ;) #écologie
-					</p>
-				</div>
-				<div class="flex_end_column size_guillemet">
-					<img class="size_guillemet" src="../css/Guillemets2.png">
-				</div>
-			</div>
-			<div class="description_twitter">
-				140 caractères
-			</div>
-			<div class="row_bleue">
-				coucou
-			</div>-->
-		</div>
+                <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Plus d’excuse pour ne pas jeter ses mégots dans nos super poubelles !<br>Aujourd’hui, Serpentard VS Gryffondor on compte sur vous ;) <a href="https://twitter.com/hashtag/%C3%A9cologie?src=hash">#écologie</a></p>&mdash; 2 Trash 1 Battle (@2Trash1Battle) <a href="https://twitter.com/2Trash1Battle/status/863729789278056450">14 mai 2017</a></blockquote>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                <!--<div class="com_twitter">
+                    <div class="size_guillemet">
+                        <img class="size_guillemet" src="../css/Guillemets1.png">
+                    </div>
+                    <div>
+                        <p class="twitter_no_marge">
+                            Plus d’excuse pour ne pas jeter ses mégots dans nos super poubelles !
+                            Aujourd’hui, Serpentard VS Gryffondor on compte sur vous ;) #écologie
+                        </p>
+                    </div>
+                    <div class="flex_end_column size_guillemet">
+                        <img class="size_guillemet" src="../css/Guillemets2.png">
+                    </div>
+                </div>
+                <div class="description_twitter">
+                    140 caractères
+                </div>
+                <div class="row_bleue">
+                    coucou
+                </div>-->
+            </div>
+        </section>
+        <section class="old_battle">
+
+        </section>
+        <section class="vote">
+
+        </section>
+
 	</main>
 
 
