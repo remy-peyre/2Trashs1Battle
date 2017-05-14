@@ -519,7 +519,7 @@ display: none;
     outline: 0;
     width: 100%;
     border-bottom: 1px solid #D8D8D8;
-    border-left: 1px solid #f0f0f0;
+    border-left: 1px solid #D8D8D8;
 }
 
 .ui-input input + label {
