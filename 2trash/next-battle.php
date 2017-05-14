@@ -122,10 +122,10 @@
                 </div>-->
             </div>
         </section>
-        <section id="display_section_old_battle">
+        <section id="display_section_old_battle" class="none">
             <p>coucou old battle</p>
         </section>
-        <section id="display_section_vote">
+        <section id="display_section_vote" class="none">
             <p>coucou vote</p>
         </section>
 
