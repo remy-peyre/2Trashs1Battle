@@ -22,10 +22,10 @@ window.onload = function(){
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById('countdown').innerHTML = days + ' jours  ';
-        document.getElementById('countdown').innerHTML += hours + ' heures ';
-        document.getElementById('countdown').innerHTML += minutes + ' minutes ';
-        document.getElementById('countdown').innerHTML += seconds + ' secondes';
+        document.getElementById('countdown').innerHTML = days + ' :  ';
+        document.getElementById('countdown').innerHTML += hours + ' : ';
+        document.getElementById('countdown').innerHTML += minutes + ' : ';
+        document.getElementById('countdown').innerHTML += seconds ;
     }
 
     timer = setInterval(showRemaining, 1000);

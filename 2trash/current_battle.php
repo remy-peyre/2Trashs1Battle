@@ -66,8 +66,8 @@
 
 	<main>
 		<section class="concept">
-			<h2 class="center_title_concept">BATTLE EN COURS</h2>
-			<h4 class="center_title_concept size_tablet">Temps restant</h4>
+			<h1 class="center_title_concept">BATTLE EN COURS</h1>
+			<h2 class="center_title_concept size_tablet">Temps restant</h2>
 			<div class="center_title_concept">
 
 			<p id="countdown"></p>
