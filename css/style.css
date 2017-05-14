@@ -401,7 +401,11 @@ nav ul li a:hover {
     height: 30px;
     margin-bottom: 60px;
 }
-
+.all_struct_twitter{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
 /*----------------------*/
 /*---- CURR-BATTLE -----*/
 /*----------------------*/
@@ -1037,8 +1041,10 @@ footer > h3{
         margin-bottom: 35px;
     }
     .all_struct_twitter{
-        width: 70%;
+        width: 57%;
         margin: auto;
+        margin-bottom: 30px;
+
     }
 
 
@@ -1237,13 +1243,32 @@ footer > h3{
         margin-top: 50px;
     }
 
+    /*----------------------*/
+    /*---- NEXTBATTTLE -----*/
+    /*----------------------*/
+    .center_categories_next-battle {
+        display: inline-flex;
+    }
+    .top_point {
+        margin-top: 20px;
+    }
+    .margin_next_battle {
+        margin-top: 45px;
+    }
+    .size_img_next_battle {
+        height: 300px;
+    }
+    .bold {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-left: 29%;
+    }
+    .all_struct_twitter {
+        width: 42%;
+        margin: auto;
+        margin-bottom: 30px;
 
-
-
-
-
-
-
+    }
 
 
 

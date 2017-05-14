@@ -65,17 +65,17 @@
 		<div class="flex_align_case_contact margin_next_battle">
 			<div class="center_categories_next-battle color_cate_next_battle">
 				<p>Prochaine</p>
-				<p>battle</p>
+				<p>&nbsp;battle</p>
 			</div>
 			<p class="space_point top_point">	&bull;</p>
 			<div class="center_categories_next-battle">
 				<p>Anciennes</p>
-				<p>battles</p>
+				<p>&nbsp;battles</p>
 			</div>
 			<p class="space_point top_point">	&bull;</p>
 			<div class="center_categories_next-battle">
 				<p>Place au</p>
-				<p>vote</p>
+				<p>&nbsp;vote</p>
 			</div>
 		</div>
 		<div class="size_img_next_battle">
@@ -83,7 +83,7 @@
 		</div>
 		<div class="center_categories_next-battle bold">
 			<p class="no_marge">Rejoignez-nous le Jeudi 18 Mai pour une</p>
-			<p class="no_marge">battle du tonnerre!</p>
+			<p class="no_marge">&nbsp;battle du tonnerre!</p>
 		</div>
 		<div class="join_us_next_battle">
 			<p>
