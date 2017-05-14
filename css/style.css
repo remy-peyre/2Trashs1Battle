@@ -1066,8 +1066,9 @@ footer > h3{
     /*----------------------*/
     /*------  NAVBAR -------*/
     /*----------------------*/
-
-
+    nav {
+        overflow: inherit;
+    }
     nav ul li a {
         font-size: 18px;
         margin-left: 13px;
@@ -1076,7 +1077,8 @@ footer > h3{
         margin-left: 20%;
     }
     .size_logo {
-        margin-left: 16px;
+        width: 110px;
+        margin: 75px 0px 0px 16px;
     }
 
     /*----------------------*/
@@ -1198,6 +1200,7 @@ footer > h3{
     .marge_square{
         margin-bottom: 30px;
     }
+
 .color_title_form:hover{
     cursor: pointer;
 }
