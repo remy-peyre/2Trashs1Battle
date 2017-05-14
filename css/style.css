@@ -470,6 +470,11 @@ nav ul li a:hover {
 display: none;
 }
 
+#countdown{
+    font-size: 33px;
+    font-weight: bolder;
+}
+
 
 /*----------------*/
 /*----Contact-----*/
