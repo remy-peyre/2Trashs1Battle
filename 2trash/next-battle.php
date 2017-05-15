@@ -108,21 +108,21 @@
         <section id="display_section_vote" class="none">
             <div class="title_vote">Quelle battle voulez-vous voir prendre forme ?</div>
 
-            <form class="form_vote">
-                <input type="radio" id="one" name="choice" value="1">
+            <form class="form_vote" name="form_survey" action="sondage.php" method="post">
+                <input type="radio" id="one" name="choice_survey" value="1">
                 <label class="square_form_vote" for="one"></label><br>
 
-                <input type="radio" id="two" name="choice" value="2">
+                <input type="radio" id="two" name="choice_survey" value="2">
                 <label class="square_form_vote" for="two"></label><br>
 
-                <input type="radio" id="tree" name="choice" value="3">
+                <input type="radio" id="tree" name="choice_survey" value="3">
                 <label class="square_form_vote" for="tree"></label><br>
 
-                <input type="submit" value="Voter">
+                <input type="submit" value="Voter" name="form_submit_survey">
             </form>
 
             <div class="second_title_vote">
-                <p>Merci! Les résultats seront disponibles le 25 mai !</p>
+                <p>Merci! Les résultats seront disponibles le 27 juin !</p>
             </div>
             <p id="countdown"></p>
             <div>

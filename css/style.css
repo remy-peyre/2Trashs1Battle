@@ -447,7 +447,7 @@ nav ul li a:hover {
 }
 .form_vote input[type="radio"]{
     display: none;
-    transition: 0.4s all;
+transition: all 0.1s ease-out;
 }
 .form_vote input[type="submit"] {
     width: 157px;
@@ -473,7 +473,7 @@ input[type="radio"]:not(:checked) + .square_form_vote{
 }
 input[type="radio"]:checked + .square_form_vote{
     border: 3px solid #86d4d9;
-    transition: 0.4s all;
+transition: all 0.1s ease-out;
 }
 
 
