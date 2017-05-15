@@ -19,4 +19,5 @@ $(document).ready(function () {
     $input.blur(function (e) {
         $(this).toggleClass('filled', !!$(this).val());
     });
+
 });
