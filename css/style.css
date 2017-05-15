@@ -422,7 +422,6 @@ nav ul li a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 14px;
     margin-bottom: 35px;
 }
 .form_vote input[type="radio"]{
