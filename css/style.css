@@ -225,10 +225,10 @@ nav ul li a:hover {
 /*----- INDEX -----*/
 /*-----------------*/
 .home_current_battle{
-    background-image: url(../css/illu_mobile/indexfirst.png);
+    background-image: url(../css/illu_mobile/firstpic.png);
     background-attachment: local;
     background-size: 100% 100%;
-    height: 700px;
+    height: 440px;
 }
 .flex_end_home_button{
     display: flex;
@@ -248,10 +248,10 @@ nav ul li a:hover {
     text-align: center;
 }
 .home_concept{
-    background-image: url(../css/illu_mobile/indexconcept.png);
+    background-image: url(../css/illu_mobile/secondpic.png);
     background-attachment: local;
     background-size: 100% 100%;
-    height: 700px;
+    height: 425px;
 }
 .home_next_battles{
     background: #1ec1a6;
@@ -261,10 +261,10 @@ nav ul li a:hover {
     height: 700px;
 }
 .home_contact{
-    background-image: url(../css/illu_mobile/indexcontact.png);
+    background-image: url(../css/illu_mobile/fourpic.png);
     background-attachment: local;
     background-size: 100% 100%;
-    height: 700px;
+    height: 385px;
 }
 
 
