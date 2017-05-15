@@ -78,45 +78,45 @@
 
 		<div class="container" id="display_form_company">
 			<form class="form" action="mail.php" id="form_submit_company" method="post">
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_one">
 					<input type="text" id="name_company" maxlength="25" tabindex="0" name="input_form_contact_one">
 					<label for="nom">
 						<span data-text="Nom d'entreprise *">Nom d'entreprise *</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_one second_column">
 					<input type="text" id="activity_company" tabindex="0" maxlength="20" name="input_form_contact_two">
 					<label for="secteur">
 						<span data-text="Secteur d'activité">Secteur d'activité</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_two">
 					<input type="text" id="adress_company" tabindex="0" maxlength="50" name="input_form_contact_three">
 					<label for="Adresse">
 						<span data-text="Adresse">Adresse</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __second">
+				<fieldset class="form-fieldset ui-input __second half_form_desktop inline_row_two second_column">
 					<input type="text" id="email_company" tabindex="0" name="input_form_contact_four">
 					<label for="email">
-						<span data-text="E-mail">E-mail</span>
+						<span data-text="E-mail *">E-mail *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
 					<input type="text" id="subject_company" tabindex="0" maxlength="60"  name="input_form_contact_five">
 					<label for="subject">
-						<span data-text="Sujet">Sujet</span>
+						<span data-text="Sujet *">Sujet *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
 					<input type="textarea" id="body_company" class="wordbreak" tabindex="0" name="input_form_contact_six">
 					<label for="message">
-						<span data-text="Message">Message</span>
+						<span data-text="Message :">Message :</span>
 					</label>
 				</fieldset>
 
@@ -128,45 +128,45 @@
 
 		<div class="container none"  id="display_form_association">
 			<form class="form" action="mail.php" id="form_submit_assoc" method="post">
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_one">
 					<input type="text" id="name_assoc" maxlength="25" tabindex="0" name="input_form_contact_one">
 					<label for="nom_assoc">
 						<span data-text="Nom de l'association *">Nom de l'association *</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_one second_column">
 					<input type="text" id="activity_assoc" tabindex="0" maxlength="20" name="input_form_contact_two">
 					<label for="cause">
 						<span data-text="Cause défendue">Cause défendue</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_two">
 					<input type="text" id="adress_assoc" tabindex="0" maxlength="50" name="input_form_contact_three">
 					<label for="Adresse_assoc">
 						<span data-text="Adresse">Adresse</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __second">
+				<fieldset class="form-fieldset ui-input __second half_form_desktop inline_row_two second_column">
 					<input type="text" id="email_assoc" tabindex="0" name="input_form_contact_four">
 					<label for="email_assoc">
-						<span data-text="E-mail">E-mail</span>
+						<span data-text="E-mail *">E-mail *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
 					<input type="text" id="subject_assoc" tabindex="0" maxlength="60"  name="input_form_contact_five">
 					<label for="subject_assoc">
-						<span data-text="Sujet">Sujet</span>
+						<span data-text="Sujet *">Sujet *</span>
 					</label>
 				</fieldset>
 
 				<fieldset class="form-fieldset ui-input __first">
 					<input type="textarea" id="body_assoc" class="wordbreak" tabindex="0" name="input_form_contact_six">
 					<label for="message_assoc">
-						<span data-text="Message">Message</span>
+						<span data-text="Message :">Message :</span>
 					</label>
 				</fieldset>
 
@@ -178,28 +178,28 @@
 
 		<div class="container none" id="display_form_user">
 			<form class="form" action="mail.php" id="form_submit_user" method="post" >
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_one">
 					<input type="text" id="name_user" maxlength="25" tabindex="0" name="input_form_contact_one">
 					<label for="user_lastname">
 						<span data-text="Nom *">Nom *</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_one second_column">
 					<input type="text" id="activity_user" tabindex="0" maxlength="20" name="input_form_contact_two">
 					<label for="user_firstname">
 						<span data-text="Prénom *">Prénom *</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __first">
+				<fieldset class="form-fieldset ui-input __first half_form_desktop inline_row_two">
 					<input type="text" id="adress_user" tabindex="0" maxlength="50" name="input_form_contact_three">
 					<label for="user_age">
 						<span data-text="Age *">Age *</span>
 					</label>
 				</fieldset>
 
-				<fieldset class="form-fieldset ui-input __second">
+				<fieldset class="form-fieldset ui-input __second half_form_desktop inline_row_two second_column">
 					<input type="text" id="email_user" tabindex="0" name="input_form_contact_four">
 					<label for="email_user">
 						<span data-text="E-mail *">E-mail *</span>

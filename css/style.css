@@ -1274,10 +1274,25 @@ footer > h3{
         margin-bottom: 30px;
 
     }
+    /*----------------------*/
+    /*------ CONTACT -------*/
+    /*----------------------*/
+    .container {
+        max-width: 750px;
+    }
+    .half_form_desktop{
+        width: 45%;
+    }
+    .inline_row_one{
+        display: inline-flex;
 
-
-
-
+    }
+    .inline_row_two{
+        display: inline-flex;
+    }
+    .second_column{
+        margin-left: 64px;
+    }
 
 
 
