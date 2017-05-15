@@ -100,33 +100,34 @@
                 <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Plus d’excuse pour ne pas jeter ses mégots dans nos super poubelles !<br>Aujourd’hui, Serpentard VS Gryffondor on compte sur vous ;) <a href="https://twitter.com/hashtag/%C3%A9cologie?src=hash">#écologie</a></p>&mdash; 2 Trash 1 Battle (@2Trash1Battle) <a href="https://twitter.com/2Trash1Battle/status/863729789278056450">14 mai 2017</a></blockquote>
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-                <!--<div class="com_twitter">
-                    <div class="size_guillemet">
-                        <img class="size_guillemet" src="../css/Guillemets1.png">
-                    </div>
-                    <div>
-                        <p class="twitter_no_marge">
-                            Plus d’excuse pour ne pas jeter ses mégots dans nos super poubelles !
-                            Aujourd’hui, Serpentard VS Gryffondor on compte sur vous ;) #écologie
-                        </p>
-                    </div>
-                    <div class="flex_end_column size_guillemet">
-                        <img class="size_guillemet" src="../css/Guillemets2.png">
-                    </div>
-                </div>
-                <div class="description_twitter">
-                    140 caractères
-                </div>
-                <div class="row_bleue">
-                    coucou
-                </div>-->
             </div>
         </section>
         <section id="display_section_old_battle" class="none">
             <p>coucou old battle</p>
         </section>
         <section id="display_section_vote" class="none">
-            <p>coucou vote</p>
+            <div class="title_vote">Quelle battle voulez-vous voir prendre forme ?</div>
+
+            <form class="form_vote">
+                <input type="radio" id="one" name="choice" value="1">
+                <label class="square_form_vote" for="one"></label><br>
+
+                <input type="radio" id="two" name="choice" value="2">
+                <label class="square_form_vote" for="two"></label><br>
+
+                <input type="radio" id="tree" name="choice" value="3">
+                <label class="square_form_vote" for="tree"></label><br>
+
+                <input type="submit" value="Voter">
+            </form>
+
+            <div class="second_title_vote">
+                <p>Merci! Les résultats seront disponibles le 25 mai !</p>
+            </div>
+            <p id="countdown"></p>
+            <div>
+
+            </div>
         </section>
 
 	</main>
