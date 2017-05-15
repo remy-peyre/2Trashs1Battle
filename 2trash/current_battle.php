@@ -19,6 +19,10 @@
 		<script src="../js/script.js"></script>
 		<script src="../js/ajax_news.js"></script>
 		<script src="../js/countdown.js"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5FLOtt9k5ikQQpd9rDlu9yLIOwGkk2yM&callback=initMap">
+        </script>
+        <script src="../js/googleapi.js"></script>
 	</head>
 	<body>
 
@@ -105,7 +109,7 @@
 					<p>Trouvez les battles près de chez vous!</p>
 				</div>
 				<div class="google_place_trash">
-
+                    <div id="map"></div>
 				</div>
 			</div>
 

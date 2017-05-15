@@ -449,7 +449,7 @@ nav ul li a:hover {
 }
 .button{
     padding: 12px 10px 12px 10px;
-    background-color: #f94f4f;
+    /*background-color: #f94f4f;*/
     width: 131px;
     color: white;
     margin-bottom: 20px;
@@ -472,6 +472,11 @@ display: none;
 #countdown{
     font-size: 33px;
     font-weight: bolder;
+}
+#map{
+    height: 200px;
+    width: 100%;
+
 }
 
 
