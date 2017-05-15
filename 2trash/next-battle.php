@@ -11,7 +11,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="../css/ionicons.min.css">
 		<link rel="stylesheet" href="../css/style.css">
-
+   		<link href="../Hover/css/hover.css" rel="stylesheet" media="all">
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<!-- JS -->
@@ -119,7 +119,7 @@
                 <input type="radio" id="tree" name="choice_survey" value="3">
                 <label class="square_form_vote" for="tree"></label><br>
 
-                <input type="submit" value="Voter" name="form_submit_survey" id="form_submit_survey">
+                <input type="submit" value="VOTER" name="form_submit_survey" id="form_submit_survey" class="hvr-grow-shadow">
             </form>
 
             <div class="second_title_vote">

@@ -11,7 +11,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="../css/ionicons.min.css">
 		<link rel="stylesheet" href="../css/style.css">
-
+   		<link href="../Hover/css/hover.css" rel="stylesheet" media="all">
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<!-- JS -->
@@ -129,7 +129,7 @@
                      <div class="square "></div>
                 </div>
             </div>
-			<div class="button">
+			<div class="button hvr-grow-shadow" style="display:block">
                 <a href="next-battle.php">
 				    Toutes les battles
                 </a>
