@@ -260,7 +260,7 @@ nav ul li a:hover {
 }
 .button_home{
     padding: 12px 10px 12px 10px;
-    background-color: #86D4D9;
+    background-color: #933838;
     width: 33%;
     color: white;
     margin-left: auto;
@@ -274,12 +274,15 @@ nav ul li a:hover {
     background-size: 100% 100%;
     height: 425px;
 }
+.color_desk_concept{
+    background: #fc5454;
+}
 .home_next_battles{
     background: #1ec1a6;
     /*background-image: url(../css/indexconcept.png);*
     background-attachment: local;
     background-size: 100% 100%;*/
-    height: 700px;
+    height: 500px;
 }
 .home_contact{
     background-image: url(../css/illu_mobile/fourpic.png);
@@ -287,7 +290,10 @@ nav ul li a:hover {
     background-size: 100% 100%;
     height: 385px;
 }
-
+.color_desk_contact{
+    background: #f78279;
+    margin-bottom: 14px;
+}
 
 
 /*------------------*/
