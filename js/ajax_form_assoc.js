@@ -68,7 +68,7 @@ $(document).ready(function () {
                         $("#result_form_contact").css("display", "none");
                         $("#result_form_contact").css("display", "-webkit-box");
                         $("#result_form_contact").css("width", "293px");
-                        $( "#result_form_contact" ).append('<p style="color:white;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
+                        $( "#result_form_contact" ).append('<p style="color:black;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
                 }
             });
         }
