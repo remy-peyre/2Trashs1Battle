@@ -22,15 +22,12 @@ window.onload = function(){
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        //var countdown = document.getElementById("countdown");
-        //var span = document.getElementsByClassName("span_time");
+        var countdown = document.getElementById("countdown");
+        var span_one = document.getElementById("span_time_one");
+        var span_two = document.getElementById("span_time_one");
 
-        //$countdown.append(span);
-
-        //$("#countdown").append(".span_time");
-        //$(".span_time").prepend('<p id="countdown"></p>');
-
-
+        $('#span_time_one').css('display', 'block');
+        $('#span_time_two').css('display', 'block');
         document.getElementById('countdown').innerHTML = days + ' :  ';
         document.getElementById('countdown').innerHTML += hours + ' : ';
         document.getElementById('countdown').innerHTML += minutes + ' : ';
