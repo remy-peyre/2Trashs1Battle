@@ -12,7 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/ionicons.min.css">
     <link rel="stylesheet" href="../css/style.css">
-
+    <link href="../Hover/css/hover.css" rel="stylesheet" media="all">
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
     <!-- JS -->
@@ -67,22 +67,22 @@
     
     <main>
         <section class="home_current_battle flex_end_home_button">
-            <a class="button_home" href="current_battle.php">
-                <div>Battle du moment</div>
+            <a class="button_home hvr-grow-shadow" href="current_battle.php">
+                <div >Battle du moment</div>
             </a>
         </section>
         <section class="home_concept flex_end_home_button flex_button_concept_tablet">
-            <a class="button_home color_desk_concept" href="concept.php">
+            <a class="button_home color_desk_concept hvr-grow-shadow" href="concept.php">
                 <div>Notre concept</div>
             </a>
         </section>
         <section class="home_next_battles flex_end_home_button">
-            <a class="button_home" href="next-battle.php">
+            <a class="button_home hvr-grow-shadow" href="next-battle.php">
                 <div>Prochaine battle</div>
             </a>
         </section>
         <section class="home_contact flex_end_home_button flex_button_contact_tablet">
-            <a class="button_home color_desk_contact" href="contact.php">
+            <a class="button_home color_desk_contact hvr-grow-shadow" href="contact.php">
                 <div>Nous contacter</div>
             </a>
         </section>
@@ -99,7 +99,7 @@
 			</div>
 			<form class="form_footer" method="post" action="newsletter.php" >
 				<input class="mail_footer" type="text" id="email_form_news" name="destination" placeholder="email@example.com">
-				<input class="footer_submit" type="submit" class="btn" value="S'inscrire" id="form_news">
+				<input class="footer_submit hvr-grow-shadow" type="submit" class="btn" value="S'inscrire" id="form_news">
 			</form>
         </div>
         <div class="link_footer footer_right_part">

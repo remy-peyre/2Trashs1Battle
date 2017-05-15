@@ -8,6 +8,7 @@ window.onload = function(){
 
     display_next_battle.onclick = function(){
         this.className = "center_categories_next-battle color_cate_next_battle";
+        display_section_next_battle.className = "bounce";
         display_old_battle.classList.remove("color_cate_next_battle");
         display_old_battle.className = "center_categories_next-battle";
         display_vote.className = "center_categories_next-battle"
@@ -19,6 +20,7 @@ window.onload = function(){
 
     display_old_battle.onclick = function(){
         this.className = "center_categories_next-battle color_cate_next_battle";
+        display_section_old_battle.className = "bounce"
         display_next_battle.classList.remove("color_cate_next_battle");
         display_vote.classList.remove("color_cate_next_battle");
         display_section_old_battle.style.display = "flex";
@@ -28,6 +30,7 @@ window.onload = function(){
 
     display_vote.onclick = function(){
         this.className = "center_categories_next-battle color_cate_next_battle";
+        display_section_vote.className = "bounce";
         display_next_battle.classList.remove("color_cate_next_battle");
         display_old_battle.classList.remove("color_cate_next_battle");
         display_section_vote.style.display = "flex";
