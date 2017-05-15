@@ -1,6 +1,6 @@
     <?php
 
-    if(isset($_POST['form_submit_survey'])){
+    if(isset($_POST['choice_survey'])){
         if(!empty($_SERVER['HTTP_CLIENT_IP'])){
             $ip=$_SERVER['HTTP_CLIENT_IP'];
         }
@@ -23,18 +23,18 @@
         $reponse_ip->execute();
         $reponse_ip =  $reponse_ip->fetch();
         if($reponse_ip){
-            echo "you already voted ! ";
+            return false;
         }
+
         else{
         $q ="INSERT INTO list_ip (ip) VALUES ('$ip')" ;
         $reponse = $bdd->prepare($q);
         $reponse->execute();
-        echo $ip;
-        echo $_POST['choice_survey'];
+        return true;
         }
     }
 else{
-    //
+    header("Location : next-battle.php");
 }
 
 ?>
