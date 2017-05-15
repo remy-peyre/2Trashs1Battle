@@ -132,10 +132,6 @@ nav ul li a:hover {
 .size_img_menu_open{
     width: 65px;
 }
-/*.size_img_menu_open:active{
-    background-image: url("../css/trashclose.png");
-}*/
-
 /* OVERLAY */
 
 .overlay {
@@ -459,6 +455,9 @@ nav ul li a:hover {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+.button a {
+    color: white;
 }
 .line_pourcentage{
     display: none;
@@ -1293,6 +1292,10 @@ footer > h3{
     .second_column{
         margin-left: 64px;
     }
+
+
+
+
 
 
 

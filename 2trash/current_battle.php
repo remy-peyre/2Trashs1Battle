@@ -119,7 +119,9 @@
                 </div>
             </div>
 			<div class="button">
-				Toutes les battles
+                <a href="next-battle.php">
+				    Toutes les battles
+                </a>
 			</div>
 
 
