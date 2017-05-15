@@ -7,8 +7,10 @@ window.onload = function(){
     var display_section_vote = document.getElementById("display_section_vote");
 
     display_next_battle.onclick = function(){
-        this.className = "color_cate_next_battle";
+        this.className = "center_categories_next-battle color_cate_next_battle";
         display_old_battle.classList.remove("color_cate_next_battle");
+        display_old_battle.className = "center_categories_next-battle";
+        display_vote.className = "center_categories_next-battle"
         display_vote.classList.remove("color_cate_next_battle");
         display_section_next_battle.style.display = "block";
         display_section_old_battle.style.display = "none";
@@ -16,7 +18,7 @@ window.onload = function(){
     }
 
     display_old_battle.onclick = function(){
-        this.className = "color_cate_next_battle";
+        this.className = "center_categories_next-battle color_cate_next_battle";
         display_next_battle.classList.remove("color_cate_next_battle");
         display_vote.classList.remove("color_cate_next_battle");
         display_section_old_battle.style.display = "flex";
@@ -25,7 +27,7 @@ window.onload = function(){
     }
 
     display_vote.onclick = function(){
-        this.className = "color_cate_next_battle";
+        this.className = "center_categories_next-battle color_cate_next_battle";
         display_next_battle.classList.remove("color_cate_next_battle");
         display_old_battle.classList.remove("color_cate_next_battle");
         display_section_vote.style.display = "flex";

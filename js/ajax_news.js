@@ -33,7 +33,11 @@ $(document).ready(function () {
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) { 
-                    alert("error");
+                        $( "#result_news" ).empty();
+                        $("#result_news").css("display", "none");
+                        $("#result_news").css("display", "-webkit-box");
+                        $("#result_news").css("width", "293px");
+                        $( "#result_news" ).append('<p style="color:white;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
                 }   
             });
         }

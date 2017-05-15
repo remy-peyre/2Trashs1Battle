@@ -64,7 +64,11 @@ $(document).ready(function () {
                     }
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
-                    alert("error");
+                        $( "#result_form_contact" ).empty();
+                        $("#result_form_contact").css("display", "none");
+                        $("#result_form_contact").css("display", "-webkit-box");
+                        $("#result_form_contact").css("width", "293px");
+                        $( "#result_form_contact" ).append('<p style="color:white;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
                 }
             });
         }
