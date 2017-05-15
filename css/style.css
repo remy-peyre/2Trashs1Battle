@@ -504,6 +504,16 @@ input[type="radio"]:checked + .square_form_vote{
 .size_name_team{
     width: 75px;
 }
+.inline_time{
+    display: inline-flex;
+    width: 100%;
+}
+.span_time {
+    width: 10%;
+    height: 2px;
+    background-color: #585858;
+    margin: auto;
+}
 .google_place_trash{
     display: flex;
     width: 100%;
@@ -553,6 +563,7 @@ display: none;
 #countdown{
     font-size: 33px;
     font-weight: bolder;
+    width: 80%;
 }
 #map{
     height: 200px;

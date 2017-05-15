@@ -22,6 +22,15 @@ window.onload = function(){
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
+        //var countdown = document.getElementById("countdown");
+        //var span = document.getElementsByClassName("span_time");
+
+        //$countdown.append(span);
+
+        //$("#countdown").append(".span_time");
+        //$(".span_time").prepend('<p id="countdown"></p>');
+
+
         document.getElementById('countdown').innerHTML = days + ' :  ';
         document.getElementById('countdown').innerHTML += hours + ' : ';
         document.getElementById('countdown').innerHTML += minutes + ' : ';
