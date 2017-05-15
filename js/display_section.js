@@ -38,7 +38,7 @@ window.onload = function(){
         display_section_old_battle.style.display = "none";
     }
 
-    var end = new Date('06/07/2017 00:00 AM');
+    var end = new Date('06/27/2017 00:00 AM');
 
     var _second = 1000;
     var _minute = _second * 60;
