@@ -79,8 +79,8 @@
                             Trouver votre poubelle
                         </p>
                     </div>
-                    <div class="text_square_concept">
-                        <p>Avec la map de Paris, trouvez les
+                    <div class="text_square_concept_one align_top">
+                        <p class="size_mobile">Avec la map de Paris, trouvez les
                         points participants à l’évènement.
                         Choisissez votre camp favori et
                         jetter vos déchets pour le faire
@@ -98,37 +98,37 @@
                         </p>
                     </div>
                     <div class="text_square_concept">
-                        <p>Plus d’excuses pour jetter vos
+                        <div class="mini_round">
+                            <img class="arrow" src="../css/illu_mobile/arrow.png">
+                        </div>
+                        <p class="size_p_arrow align_top2">Plus d’excuses pour jetter vos
                             mégots et chewing-gum par terre!
                             Nous avons LA solution à la fois
                             ludique et intelligible pour rendre
                             notre ville propre.
                         </p>
                     </div>
-                    <div class="mini_round">
-                        <img class="arrow" src="../css/illu_mobile/arrow.png">
-                    </div>
                 </div>
                 <div class="third_square_concept">
                     <div class="round">
                         <img class="size_pic_in_round recycler" src="../css/illu_mobile/recyclage.png">
                     </div>
-                    <div class="title_square_concept">
-                        <p>
+                    <div class="title_square_concept ">
+                        <p class="align_title3">
                             Un geste pour l’environnement
                         </p>
                     </div>
                     <div class="text_square_concept">
-                        <p>Votre participation permettra à vos
+                        <div class="mini_round">
+                            <img class="arrow second_try" src="../css/illu_mobile/arrow.png">
+                        </div>
+                        <p class="align_top3">Votre participation permettra à vos
                             mégots d’être distribués à
                             Terracycle pour permettre la
                             fabrication d’autres éléments
                             tels que le composte ou des billes
                             de plastique.
                         </p>
-                    </div>
-                    <div class="mini_round">
-                        <img class="arrow" src="../css/illu_mobile/arrow.png">
                     </div>
                 </div>
             </div>
