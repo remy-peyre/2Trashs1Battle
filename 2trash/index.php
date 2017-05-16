@@ -77,7 +77,7 @@
             </a>
         </section>
         <section class="home_next_battles flex_end_home_button">
-            <a class="button_home hvr-grow-shadow" href="next-battle.php">
+            <a class="button_home color_desk_next_battle hvr-grow-shadow" href="next-battle.php">
                 <div>Prochaine battle</div>
             </a>
         </section>
