@@ -102,9 +102,56 @@
 
             </div>
         </section>
+
+
         <section id="display_section_old_battle" class="none">
-            <p>coucou old battle</p>
+
+            <div class="first_row_old_battle">
+                <div class="marge_submenu_old_battle color_cate_next_battle_underline">All</div>
+                <div class="marge_submenu_old_battle">Battles sponsorisées</div>
+                <div class="marge_submenu_old_battle">Sport</div>
+                <div class="marge_submenu_old_battle">Nourriture</div>
+                <div class="marge_submenu_old_battle">Musique</div>
+            </div>
+
+            <div class="first_row_flex_old_battle">
+                <div class="first_square_pic"></div>
+                <div class="little_square_first">
+                    <p class="uppercase_name">nom de battle</p>
+                    <p>score</p>
+                    <div class="inline_second_square">
+                        <p>52%</p>
+                        <p>48%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="first_row_flex_old_battle">
+                <div class="little_square_first">
+                    <p class="uppercase_name">nom de battle</p>
+                    <p>score</p>
+                    <div class="inline_second_square">
+                        <p>52%</p>
+                        <p>48%</p>
+                    </div>
+                </div>
+                <div class="first_square_pic"></div>
+            </div>
+
+            <div class="first_row_flex_old_battle">
+                <div class="first_square_pic"></div>
+                <div class="little_square_first">
+                    <p class="uppercase_name">nom de battle</p>
+                    <p>score</p>
+                    <div class="inline_second_square">
+                        <p>52%</p>
+                        <p>48%</p>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
         <section id="display_section_vote" class="none">
             <div class="title_vote">Quelle battle voulez-vous voir prendre forme ?</div>
 
@@ -123,9 +170,13 @@
 
             <div class="second_title_vote">
                 <p>Merci! Les résultats seront disponibles le 27 juin !</p>
-            </div>
-            <p id="countdown"></p>
-            <div>
+
+                <div class="inline_time">
+                    <!--<span class="span_time"></span>-->
+                    <p id="countdown"></p>
+                    <!--<span class="span_time"></span>-->
+
+                </div>
 
             </div>
         </section>

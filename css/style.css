@@ -429,6 +429,60 @@ nav ul li a:hover {
     margin: auto;
     margin-bottom: 30px;
 }
+/*----- old battle ------*/
+.first_row_old_battle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.marge_submenu_old_battle{
+    margin: 0px 10px 0px 10px;
+    width: 27%;
+}
+.color_cate_next_battle_underline{
+    color: #86D4D9;
+}
+.first_row_flex_old_battle{
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.first_square_pic{
+    width: 55%;
+    height: 150px;
+    background-color: #ffa061;
+}
+.little_square_first{
+    width: 35%;
+    height: 80px;
+    background-color: #f1eeee;
+    font-size: 8px;
+    text-align: center;
+    background-color: #86D4D9;
+    color: white;
+}
+.uppercase_name{
+    text-transform: uppercase;
+}
+.inline_second_square{
+    display: inline-flex;
+}
+.inline_second_square p {
+    margin-left: 6px;
+    margin-right: 6px;
+}
 
 /*------- VOTE -------*/
 #display_section_vote{
@@ -1145,9 +1199,53 @@ footer > h3{
         width: 57%;
         margin: auto;
         margin-bottom: 30px;
-
     }
 
+    /*---- old-battle ----*/
+    .marge_submenu_old_battle {
+        /* margin: 0px 18px 0px 18px; */
+        width: 17%;
+        height: 40px;
+    }
+    .first_square_pic {
+        height: 215px;
+    }
+    .little_square_first {
+        height: 125px;
+        font-size: 13px;
+    }
+    /*-------- Vote --------*/
+    .title_vote {
+        font-size: 17px;
+    }
+    .form_vote {
+        width: 90%;
+        margin-left: 2%;
+    }
+    .form_vote .square_form_vote {
+        width: 25%;
+        height: 175px;
+    }
+    .form_vote input[type="submit"] {
+        width: 26%;
+        padding: 14px;
+        font-size: 16px;
+        margin-top: 54px;
+    }
+    input[type="radio"]:not(:checked) + .square_form_vote {
+        margin-top: 3px;
+        margin-left: 3%;
+        margin-bottom: 3px;
+    }
+    input[type="radio"]:checked + .square_form_vote {
+        margin-top: 3px;
+        margin-left: 3%;
+        margin-bottom: 3px;
+    }
+    #countdown{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     /*----------------------*/
     /*------ CONTACT -------*/
@@ -1368,8 +1466,54 @@ footer > h3{
         width: 42%;
         margin: auto;
         margin-bottom: 30px;
-
     }
+
+    /*---- old-battle ----*/
+    .marge_submenu_old_battle {
+        font-size: 18px;
+    }
+    .first_square_pic {
+        height: 275px;
+    }
+    .little_square_first {
+        height: 170px;
+        font-size: 18px;
+    }
+
+    /*-------- Vote --------*/
+    .title_vote {
+        margin-bottom: 45px;
+        font-size: 18px;
+    }
+    .form_vote {
+        width: 90%;
+        margin-left: 2%;
+    }
+    .form_vote .square_form_vote {
+        width: 25%;
+        height: 175px;
+    }
+    .form_vote input[type="submit"] {
+        width: 26%;
+        padding: 14px;
+        font-size: 16px;
+        margin-top: 54px;
+    }
+    input[type="radio"]:not(:checked) + .square_form_vote {
+        margin-top: 3px;
+        margin-left: 3%;
+        margin-bottom: 3px;
+    }
+    input[type="radio"]:checked + .square_form_vote {
+        margin-top: 3px;
+        margin-left: 3%;
+        margin-bottom: 3px;
+    }
+    #countdown{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /*----------------------*/
     /*------ CONTACT -------*/
     /*----------------------*/
