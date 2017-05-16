@@ -73,13 +73,10 @@
 			<h1 class="center_title_concept">BATTLE EN COURS</h1>
 			<h2 class="center_title_concept size_tablet">Temps restant</h2>
 			<div class="center_title_concept">
-            <div class="inline_time">
-                
+            <div class="inline_time size_tablet_count">
 					<span id='span_time_one'></span>
 					 <p id="countdown"></p>
 					 <span id='span_time_two'></span>
-                
-
             </div>
 
 

@@ -630,7 +630,7 @@ display: none;
 }
 
 #countdown{
-    font-size: 33px;
+    font-size: 30px;
     font-weight: bolder;
     width: 80%;
 }
@@ -1141,9 +1141,8 @@ footer > h3{
         font-size: 20px;
     }
     #countdown{
-        font-size: 20px;
+        font-size: 24px;
     }
-
     .size_trash_next_battle {
         width: 165px;
     }
@@ -1151,6 +1150,10 @@ footer > h3{
         margin: auto;
         font-size: 20px;
         padding: 17px 0px;
+    }
+    .size_tablet_count{
+        width: 30%;
+        margin: auto;
     }
     .size_name_team {
         width: 115px;
@@ -1204,7 +1207,11 @@ footer > h3{
         justify-content: space-between;
     }
     .google_place_trash {
-        height: 350px;
+        /*height: 500px;*/
+    }
+    #map {
+        height: 270px;
+        width: 100%;
     }
     .square_last_battle {
         height: 250px;
@@ -1391,6 +1398,13 @@ footer > h3{
         justify-content: space-between;
         margin-top: 40px;
     }
+    .size_tablet_count {
+        width: 35%;
+    }
+    #countdown{
+        font-size: 37px;
+        margin: 10px;
+    }
     .size_trash_next_battle {
         width: 225px;
     }
@@ -1408,6 +1422,10 @@ footer > h3{
     }
     .google_place_trash {
         height: 425px;
+    }
+    #map {
+        height: 425px;
+        width: 100%;
     }
     .square_last_battle {
         height: 350px;
