@@ -562,12 +562,22 @@ transition: all 0.1s ease-out;
     display: inline-flex;
     width: 100%;
 }
-.span_time {
+#span_time_one {
+    display: none;
     width: 10%;
     height: 2px;
     background-color: #585858;
     margin: auto;
 }
+
+#span_time_two {
+    display:none;
+    width: 10%;
+    height: 2px;
+    background-color: #585858;
+    margin: auto;
+}
+
 .google_place_trash{
     display: flex;
     width: 100%;
@@ -793,6 +803,13 @@ margin-right: auto;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     width: 237px;
+}
+
+#result_survey{ 
+    -webkit-animation-duration: 1s; 
+    display: none; animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
 }
 
 #result_form_contact{

@@ -11,7 +11,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="../css/ionicons.min.css">
 		<link rel="stylesheet" href="../css/style.css">
-
+   		<link href="../Hover/css/hover.css" rel="stylesheet" media="all">
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<!-- JS -->
@@ -121,7 +121,7 @@
 				</fieldset>
 
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer" name="form_submit_company">
+					<input type="submit" class="btn hvr-grow-shadow" value="Envoyer" name="form_submit_company">
 				</div>
 			</form>
 		</div>
@@ -171,7 +171,7 @@
 				</fieldset>
 
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer" name="form_submit_assoc" >
+					<input type="submit" class="btn hvr-grow-shadow" value="Envoyer" name="form_submit_assoc" >
 				</div>
 			</form>
 		</div>
@@ -221,7 +221,7 @@
 				</fieldset>
 
 				<div class="form-footer">
-					<input type="submit" class="btn" value="Envoyer" name="form_submit_user">
+					<input type="submit" class="btn hvr-grow-shadow" value="Envoyer" name="form_submit_user">
 				</div>
 			</form>
 		</div>

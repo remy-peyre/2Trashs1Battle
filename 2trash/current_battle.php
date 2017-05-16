@@ -11,7 +11,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="../css/ionicons.min.css">
 		<link rel="stylesheet" href="../css/style.css">
-
+   		<link href="../Hover/css/hover.css" rel="stylesheet" media="all">
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<!-- JS -->
@@ -74,9 +74,11 @@
 			<h2 class="center_title_concept size_tablet">Temps restant</h2>
 			<div class="center_title_concept">
             <div class="inline_time">
-                <!--<span class="span_time"></span>-->
-                <p id="countdown"></p>
-                <!--<span class="span_time"></span>-->
+                
+					<span id='span_time_one'></span>
+					 <p id="countdown"></p>
+					 <span id='span_time_two'></span>
+                
 
             </div>
 
@@ -127,7 +129,7 @@
                      <div class="square "></div>
                 </div>
             </div>
-			<div class="button">
+			<div class="button hvr-grow-shadow" style="display:block">
                 <a href="next-battle.php">
 				    Toutes les battles
                 </a>
