@@ -172,17 +172,12 @@
             <div class="second_title_vote">
                 <p>Merci! Les résultats seront disponibles le 27 juin !</p>
 
-                <div class="inline_time">
-                    <!--<span class="span_time"></span>-->
-                    <p id="countdown"></p>
-                    <!--<span class="span_time"></span>-->
-
+                <div class="inline_time size_tablet_count">
+                    <!--<span id='span_time_one'></span>-->
+                    <p id="countdown" class="position_count_vote"></p>
+                    <!--<span id='span_time_two'></span>-->
                 </div>
                 <p id="result_survey" class="bounce"></p>
-            </div>
-            <p id="countdown"></p>
-            <div>
-
             </div>
         </section>
 

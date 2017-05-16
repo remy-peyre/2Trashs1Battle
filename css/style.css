@@ -540,7 +540,11 @@ input[type="radio"]:checked + .square_form_vote{
     border: 3px solid #86d4d9;
 transition: all 0.1s ease-out;
 }
-
+.position_count_vote{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 21px;
+}
 
 /*----------------------*/
 /*---- CURR-BATTLE -----*/
@@ -1286,6 +1290,13 @@ footer > h3{
     /*----------------------*/
     /*------ CONTACT -------*/
     /*----------------------*/
+    .page_contact{
+        background-image: url(../css/illu_tab_desk/decopoubelle.png);
+        background-repeat: no-repeat;
+        background-position: left 12px bottom 12px;
+        background-attachment: local;
+        background-size: 70px 65px;
+    }
     .flex_align_case_contact{
         font-size: 1.2rem;
     }
