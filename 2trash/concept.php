@@ -67,33 +67,74 @@
 
 	<main>
 		<section class="concept">
-			<h2 class="center_title_concept">QUI SOMMES NOUS ?</h2>
-			<p class="first_p_concept">
-				Un joyeux groupe d’étudiants du web mélangeant 3 spécialités, design, développement et marketing.
-				<br>
-				Nous avons cherché une solution rapide et efficace face à la pollution
-				urbaine et environnementale que représentent les mégots de cigarette
-				jetés par terre. Notre projet à la fois ludique et intelligible permet
-				aux jeunes adultes et seniors de s’y retrouver.
-			</p>
-			<h3 class="size_subtitle_concept">Notre concept en un GIF !</h3>
-			<div class="flex_tablet_concept">
-				<div class="size_gif_concept">
-					<!--<img src="" alt="git du concept">-->
-				</div>
-				<div class="second_p_conept">
-					<p>2 Trash 1 Battle met en place un concept innovant qui oppose deux poubelles
-					qui représentent deux camps rivaux, où vous devez simplement jeter vos mégots
-					de cigarette dans la poubelle représentant son camp favori.
-					</p>
-					<p>
-					Le camp qui compte la masse de déchet la plus élevée est le vainqueur de la battle.
-					</p>
-					<p>
-					A vous de jouer !
-					</p>
-				</div>
-			</div>
+			<h2 class="center_title_concept">COMMENT CA FONCTIONNE ?</h2>
+
+            <div class="flex_square_concept">
+                <div class="third_square_concept">
+                    <div class="round">
+                        <img class="size_pic_in_round" src="../css/illu_mobile/conceptone.png">
+                    </div>
+                    <div class="title_square_concept">
+                        <p>
+                            Trouver votre poubelle
+                        </p>
+                    </div>
+                    <div class="text_square_concept">
+                        <p>Avec la map de Paris, trouvez les
+                        points participants à l’évènement.
+                        Choisissez votre camp favori et
+                        jetter vos déchets pour le faire
+                        gagner.
+                        </p>
+                    </div>
+                </div>
+                <div class="third_square_concept">
+                    <div class="round">
+                        <img class="size_pic_in_round megot" src="../css/illu_mobile/megot.png">
+                    </div>
+                    <div class="title_square_concept">
+                        <p>
+                            Jetter vos déchets
+                        </p>
+                    </div>
+                    <div class="text_square_concept">
+                        <p>Plus d’excuses pour jetter vos
+                            mégots et chewing-gum par terre!
+                            Nous avons LA solution à la fois
+                            ludique et intelligible pour rendre
+                            notre ville propre.
+                        </p>
+                    </div>
+                    <div class="mini_round">
+                        <img class="arrow" src="../css/illu_mobile/arrow.png">
+                    </div>
+                </div>
+                <div class="third_square_concept">
+                    <div class="round">
+                        <img class="size_pic_in_round recycler" src="../css/illu_mobile/recyclage.png">
+                    </div>
+                    <div class="title_square_concept">
+                        <p>
+                            Un geste pour l’environnement
+                        </p>
+                    </div>
+                    <div class="text_square_concept">
+                        <p>Votre participation permettra à vos
+                            mégots d’être distribués à
+                            Terracycle pour permettre la
+                            fabrication d’autres éléments
+                            tels que le composte ou des billes
+                            de plastique.
+                        </p>
+                    </div>
+                    <div class="mini_round">
+                        <img class="arrow" src="../css/illu_mobile/arrow.png">
+                    </div>
+                </div>
+            </div>
+
+
+
 			<h3 class="size_subtitle_concept_lastpart">Que faisons-nous de ces mégots ?</h3>
 			<div class="third_p_concept">
 				<p>
@@ -114,6 +155,9 @@
 					vous nous aidez aussi à résoudre un sérieux problème écologique que représentent les mégots jettés par terre !
 				</p>
 			</div>
+            <div class="size_gif_concept">
+                <video loop muted autoplay src="../css/illu_mobile/gif.mp4">coucou</video>
+            </div>
 			<div class="find_trash">
 				<a class="color_find_trash" href="#">
 					Trouver une poubelle !
