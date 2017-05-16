@@ -54,7 +54,7 @@
 			<ul>
 				<li><a href="#">Next Battle</a>
 					<ul>
-						<li><a href="concept.php">Accueil</a></li>
+						<li><a href="index.php">Accueil</a></li>
 						<li><a href="current_battle.php">Battle du moment</a></li>
 						<li><a href="concept.php">Concept</a></li>
 						<li><a href="contact.php">Contact</a></li>
@@ -121,8 +121,8 @@
                     <p class="uppercase_name">nom de battle</p>
                     <p>score</p>
                     <div class="inline_second_square">
-                        <p>52%</p>
-                        <p>48%</p>
+                        <p>70%</p>
+                        <p>30%</p>
                     </div>
                 </div>
             </div>
@@ -132,8 +132,8 @@
                     <p class="uppercase_name">nom de battle</p>
                     <p>score</p>
                     <div class="inline_second_square">
-                        <p>52%</p>
-                        <p>48%</p>
+                        <p>14%</p>
+                        <p>86%</p>
                     </div>
                 </div>
                 <div class="first_square_pic"></div>
@@ -145,8 +145,8 @@
                     <p class="uppercase_name">nom de battle</p>
                     <p>score</p>
                     <div class="inline_second_square">
-                        <p>52%</p>
-                        <p>48%</p>
+                        <p>35%</p>
+                        <p>65%</p>
                     </div>
                 </div>
             </div>
