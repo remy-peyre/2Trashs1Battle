@@ -14,11 +14,11 @@ void setup(void) {
  
 void loop(void) {
   fsrReading = analogRead(fsrPin);  
-  Serial.print("Analog reading = ");
-  Serial.println(fsrReading);
+  //Serial.print("Analog reading = ");
+  //Serial.println(fsrReading);
  
   // analog voltage reading ranges from about 0 to 1023 which maps to 0V to 5V (= 5000mV)
-  fsrVoltage = map(fsrReading, 0, 1023, 0, 5000);
+  /*fsrVoltage = map(fsrReading, 0, 1023, 0, 5000);
   Serial.print("Voltage reading in mV = ");
   Serial.println(fsrVoltage);  
  
@@ -49,9 +49,9 @@ void loop(void) {
       Serial.print("Force in Newtons: ");
       Serial.println(fsrForce);            
     }
-  }
+  }*/
   Serial.print("Analog reading = ");
-  Serial.print(fsrReading);     // the raw analog reading
+  Serial.print(fsrReading/9.81);     // the raw analog reading
  
   // We'll have a few threshholds, qualitatively determined
   if (fsrReading < 10) {
