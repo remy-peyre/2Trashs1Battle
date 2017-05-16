@@ -23,7 +23,7 @@
         $reponse_ip->execute();
         $reponse_ip =  $reponse_ip->fetch();
         if($reponse_ip){
-            return false;
+           echo "voted";
         }
 
         else{
