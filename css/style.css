@@ -299,6 +299,12 @@ nav ul li a:hover {
     background: #f78279;
     margin-bottom: 14px;
 }
+.downloadme{
+    background-image: url(../css/downloadme.png);
+    background-attachment: local;
+    background-size: 107% 100%;
+    height: 150px;
+}
 
 
 /*------------------*/
@@ -1092,7 +1098,10 @@ footer > h3{
         justify-content: flex-start;
         align-items: center;
     }
+    .downloadme{
+        height: 220px;
 
+    }
 
     /*----------------------*/
     /*------ CONCEPT -------*/
