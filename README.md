@@ -1,5 +1,7 @@
 # 2Trashs1Battle
 
+<img src="css/trashclose.png" width="20px" />
+
 NPM: npm install hover.css --save
 
 bower install hover --save
