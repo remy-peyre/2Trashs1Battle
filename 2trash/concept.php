@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href="../Hover/css/hover.css" rel="stylesheet" media="all">
 
 		<!-- JS -->
 		<script src="../js/jquery-1.11.3.min.js"></script>
@@ -170,8 +171,8 @@
 
             <!--<div id="myBtn class="find_trash">
  -->
-			<div id="myBtn" class="find_trash">
-				<div class="color_find_trash">
+			<div id="myBtn" class="find_trash hvr-grow-shadow" style="display:block;">
+				<div class="color_find_trash ">
 					Trouver une poubelle !
 				</div>
 			</div>
