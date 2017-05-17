@@ -12,7 +12,6 @@ window.onload = function() {
     btn.onclick = function () {
         modal.style.display = "block";
         google.maps.event.trigger(map, 'resize');
-        map.setCenter(new google.maps.LatLng(42.3605336, -72.6362989));
     }
 
     // When the user clicks on <span> (x), close the modal
