@@ -7,8 +7,8 @@
 <p>npm install hover.css --save</p>
 <p>bower install hover --save</p>
 
-<h2>Serial port serie from https://github.com/argandas/serial</h2>
-<p>go get github.com/argandas/serial</p>
-<p>go install github.com/argandas/serial</p>
+<h2>Serial port serie python : pyserial</h2>
+<p>py -m pip install pyserial </p>
+<p>https://pythonhosted.org/pyserial/</p>
 
 
