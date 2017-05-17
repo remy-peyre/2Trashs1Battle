@@ -395,6 +395,9 @@ video{
 .hide{
     display: none;
 }
+.color_find_trash{
+    display: none;
+}
 
 /*--------------------------*/
 /* The Modal (background) */
@@ -1268,6 +1271,7 @@ footer > h3{
     }
     .color_find_trash {
         color: white;
+        display: block;
     }
     .flex_square_concept {
         display: flex;
