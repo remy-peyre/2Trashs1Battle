@@ -50,10 +50,10 @@ void loop(void) {
       Serial.println(fsrForce);            
     }
   }*/
-  Serial.print("Analog reading = ");
-  Serial.print(fsrReading/9.81);     // the raw analog reading
+  //Serial.print("Analog reading = ");
+  Serial.println(fsrReading/9.81);     // the raw analog reading
  
-  // We'll have a few threshholds, qualitatively determined
+  /* We'll have a few threshholds, qualitatively determined
   if (fsrReading < 10) {
     Serial.println(" - No pressure");
   } else if (fsrReading < 200) {
@@ -66,7 +66,7 @@ void loop(void) {
     Serial.println(" - Big squeeze ");
   }
 
-    Serial.println("--------------------");
+    Serial.println("--------------------");*/
 
   delay(1000);
 }
