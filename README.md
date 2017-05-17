@@ -12,3 +12,8 @@
 <p>https://pythonhosted.org/pyserial/</p>
 
 
+
+<h2>Application ionic</h2>
+<p>sudo npm install -g cordova</p>
+<p>sudo npm install -g ionic</p>
+
