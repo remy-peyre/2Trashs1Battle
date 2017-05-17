@@ -1,6 +1,6 @@
 # 2Trashs1Battle
 
-<img src="css/Logo.png" width="500px" />
+<img src="css/trashclose.png" width="500px" />
 
 NPM: npm install hover.css --save
 
