@@ -22,7 +22,7 @@
         <script async defer
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5FLOtt9k5ikQQpd9rDlu9yLIOwGkk2yM&callback=initMap">
         </script>
-        <script src="../js/googleapi.js"></script>
+        <script src="../js/googlemap_concept.js"></script>
 
 	</head>
 	<body>

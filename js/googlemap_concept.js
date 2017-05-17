@@ -1,7 +1,7 @@
 function initMap() {
     // Create a map object and specify the DOM element for display.
     var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 48.8637569, lng: 2.3371260999999777},
+        center: {lat: 48.9167, lng: 2.15},
         // Set mapTypeId to SATELLITE in order
         // to activate satellite imagery.
         //mapTypeId: 'satellite',
