@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function () {
     var end = new Date('06/07/2017 00:00 AM');
 
     var _second = 1000;
@@ -31,8 +31,15 @@ window.onload = function(){
         document.getElementById('countdown').innerHTML = days + ' :  ';
         document.getElementById('countdown').innerHTML += hours + ' : ';
         document.getElementById('countdown').innerHTML += minutes + ' : ';
-        document.getElementById('countdown').innerHTML += seconds ;
+        document.getElementById('countdown').innerHTML += seconds;
     }
 
     timer = setInterval(showRemaining, 1000);
+
+    ws = new WebSocket("ws://localhost:5678");
+        ws.onmessage = function (event) {
+            console.log(event.data);
+        };
+
+
 }
