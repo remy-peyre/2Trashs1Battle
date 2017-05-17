@@ -143,23 +143,23 @@
 
 			<h3 class="size_subtitle_concept_lastpart">Que faisons-nous de ces mégots ?</h3>
 			<div class="third_p_concept">
-				<p>
+				<p class="p_size_concept">
 					<span class="question_concept">Et si on vous dit qu’il est possible de recycler les mégots de cigarette ?</span>
 				</p>
                 <div class="size_gif_concept hide_tablet">
                     <video loop muted autoplay src="../css/illu_mobile/gif.mp4"></video>
                 </div>
-				<p>
+				<p class="p_size_concept">
 					Tout d’abord, nos mégots récoltés seront distribués à notre partenaire Terracycle, qui prendra en main le processus de recyclage.
 				</p>
-				<p>
+				<p class="p_size_concept">
 					Ensuite le papier et le reste de tabac (y compris les cendres) seront transformés en compost, qui sera utilisé dans l’aménagement du paysage.
 				</p>
-				<p>
+				<p class="p_size_concept">
 					Le filtre quand à lui, sera recyclé en petites billes de plastique qui serviront à diverses utilisations possible après avoir été traité et dépollué.
 					Ces billes en plastiques sont surtout utilisées actuellement dans la fabrication de paletes industrielles.
 				</p>
-				<p>
+				<p class="p_size_concept">
 					Avec notre projet, en plus de vous amuser avec une rivalité amicale en choisssant votre camp,
 					vous nous aidez aussi à résoudre un sérieux problème écologique que représentent les mégots jettés par terre !
 				</p>
