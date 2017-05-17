@@ -49,7 +49,7 @@
 			</a>
 		</div>
 		<a id="open_close" class="btn-open" href="javascript:void(0)">
-			<img class="size_img_menu_open" src="../css/trashclose.png">
+			<img class="size_img_menu_open" src="../css/trashclose.png" alt="menu fermé">
 		</a>
 	</div>
 
@@ -84,17 +84,17 @@
 			</div>
 			<div class="flex_row_battle">
 				<div class="center">
-					<img class="size_trash_next_battle" src="../css/gryffon.png">
+					<img class="size_trash_next_battle" src="../css/gryffon.png" alt="nom de battle">
 					<p class="pourcentage_mobile">XX%</p>
-					<img class="size_name_team" src="../css/gryff_ai.png">
+					<img class="size_name_team" src="../css/gryff_ai.png" alt="nom de battle">
 				</div>
 				<div>
-					<img class="lightning" src="../css/eclair.png">
+					<img class="lightning" src="../css/eclair.png" alt="eclaire">
 				</div>
 				<div class="center">
-					<img class="size_trash_next_battle" src="../css/serpentard.png">
+					<img class="size_trash_next_battle" src="../css/serpentard.png" alt="nom de battle">
 					<p class="pourcentage_mobile">XX%</p>
-					<img class="size_name_team" src="../css/serp_ai.png">
+					<img class="size_name_team" src="../css/serp_ai.png" alt="nom de battle">
 				</div>
 
 				<div class="line_pourcentage">
@@ -148,7 +148,7 @@
             </div>
             <form class="form_footer" method="post" action="newsletter.php" >
                 <input class="mail_footer" type="text" id="email_form_news" name="destination" placeholder="email@example.com">
-                <input class="footer_submit hvr-grow-shadow" type="submit" class="btn" value="S'inscrire" id="form_news">
+                <input class="footer_submit hvr-grow-shadow btn" type="submit" value="S'inscrire" id="form_news">
             </form>
         </div>
         <div class="footer_div">

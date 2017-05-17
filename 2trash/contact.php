@@ -47,7 +47,7 @@
 			</a>
 		</div>
 		<a id="open_close" class="btn-open" href="javascript:void(0)">
-			<img class="size_img_menu_open" src="../css/trashclose.png">
+			<img class="size_img_menu_open" src="../css/trashclose.png" alt="menu fermé">
 		</a>
 	</div>
 
@@ -69,7 +69,6 @@
         <section class="page_contact">
             <h1 class="title_center_contact">Contactez-nous!</h1>
 
-            </div>
             <div class="flex_align_case_contact">
                 <p class="color_title_form" id="display_company">Entreprise</p>
                 <p class="space_point" >	&bull;</p>
@@ -239,7 +238,7 @@
             </div>
             <form class="form_footer" method="post" action="newsletter.php" >
                 <input class="mail_footer" type="text" id="email_form_news" name="destination" placeholder="email@example.com">
-                <input class="footer_submit hvr-grow-shadow" type="submit" class="btn" value="S'inscrire" id="form_news">
+                <input class="footer_submit hvr-grow-shadow btn" type="submit" value="S'inscrire" id="form_news">
             </form>
         </div>
         <div class="footer_div">

@@ -49,7 +49,7 @@
 		</div>
 
 		<a id="open_close" class="btn-open" href="javascript:void(0)">
-			<img class="size_img_menu_open" src="../css/trashclose.png">
+			<img class="size_img_menu_open" src="../css/trashclose.png" alt="menu fermé">
 		</a>
 	</div>
 
@@ -78,7 +78,7 @@
             <div class="flex_square_concept">
                 <div class="third_square_concept">
                     <div class="round">
-                        <img class="size_pic_in_round" src="../css/illu_mobile/conceptone.png">
+                        <img class="size_pic_in_round" src="../css/illu_mobile/conceptone.png" alt="icone poubelle">
                     </div>
                     <div class="title_square_concept">
                         <p>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="third_square_concept">
                     <div class="round">
-                        <img class="size_pic_in_round megot" src="../css/illu_mobile/megot.png">
+                        <img class="size_pic_in_round megot" src="../css/illu_mobile/megot.png" alt="icone megot">
                     </div>
                     <div class="title_square_concept">
                         <p>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="text_square_concept">
                         <div class="mini_round">
-                            <img class="arrow" src="../css/illu_mobile/arrow.png">
+                            <img class="arrow" src="../css/illu_mobile/arrow.png" alt="fleche">
                         </div>
                         <p class="size_p_arrow align_top2">Plus d’excuses pour jetter vos
                             mégots et chewing-gum par terre!
@@ -117,7 +117,7 @@
                 </div>
                 <div class="third_square_concept">
                     <div class="round">
-                        <img class="size_pic_in_round recycler" src="../css/illu_mobile/recyclage.png">
+                        <img class="size_pic_in_round recycler" src="../css/illu_mobile/recyclage.png" alt="recycler">
                     </div>
                     <div class="title_square_concept ">
                         <p class="align_title3">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="text_square_concept">
                         <div class="mini_round">
-                            <img class="arrow second_try" src="../css/illu_mobile/arrow.png">
+                            <img class="arrow second_try" src="../css/illu_mobile/arrow.png" alt="fleche">
                         </div>
                         <p class="align_top3">Votre participation permettra à vos
                             mégots d’être distribués à
@@ -205,7 +205,7 @@
             </div>
             <form class="form_footer" method="post" action="newsletter.php" >
                 <input class="mail_footer" type="text" id="email_form_news" name="destination" placeholder="email@example.com">
-                <input class="footer_submit hvr-grow-shadow" type="submit" class="btn" value="S'inscrire" id="form_news">
+                <input class="footer_submit hvr-grow-shadow btn" type="submit" value="S'inscrire" id="form_news">
             </form>
         </div>
         <div class="footer_div">
