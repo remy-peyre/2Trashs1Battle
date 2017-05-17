@@ -7,7 +7,7 @@
 <p>npm install hover.css --save</p>
 <p>bower install hover --save</p>
 
-<h2>Serial port serie from github.com/argandas/serial</h2>
+<h2>Serial port serie from https://github.com/argandas/serial</h2>
 <p>go get github.com/argandas/serial</p>
 <p>go install github.com/argandas/serial</p>
 
