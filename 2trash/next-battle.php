@@ -187,34 +187,46 @@
 
 
 
-	<footer>
-		<div class="footer_left_part">
-			<h3>Newsletter</h3>
-			<p class="center_p_footer">Soyez le premier à être au courant de notre actualité !</p>
-			<div id="result_news" class="bounce">
-			</div>
-			<form class="form_footer" method="post" action="newsletter.php" >
-				<input class="mail_footer" type="text" id="email_form_news" name="destination" placeholder="email@example.com">
-				<input class="footer_submit" type="submit" class="btn" value="S'inscrire" id="form_news">
-			</form>
-		</div>
+    <footer>
+        <div class="footer_left_part">
+            <h3>Newsletter</h3>
+            <p class="center_p_footer">Soyez le premier à être au courant de notre actualité !</p>
+            <div id="result_news" class="bounce">
+            </div>
+            <form class="form_footer" method="post" action="newsletter.php" >
+                <input class="mail_footer" type="text" id="email_form_news" name="destination" placeholder="email@example.com">
+                <input class="footer_submit hvr-grow-shadow" type="submit" class="btn" value="S'inscrire" id="form_news">
+            </form>
+        </div>
         <div class="footer_div">
             <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
             </div>
             <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
             </div>
         </div>
-		<div class="link_footer footer_right_part">
-			<p><a href="index.php">Accueil</a></p>
-			<p><a href="current_battle.php">Battle du moment</a></p>
-			<p><a href="concept.php">Notre concept</a></p>
-			<p><a href="next-battle.php">Prochaine battle</a></p>
-			<p><a href="contact.php">Nous contacter</a></p>
-		</div>
-		<div class="copyright_footer">
-			<p> &copy; 2Trash1Battle | Tous droits réservés</p>
-		</div>
-	</footer>
+        <div class="link_footer footer_right_part">
+            <p><a class="none" href="index.php">Accueil</a></p>
+            <p><a href="current_battle.php">Battle du moment</a></p>
+            <p><a href="concept.php">Notre concept</a></p>
+            <p><a href="next-battle.php">Prochaine battle</a></p>
+            <p><a href="contact.php">Nous contacter</a></p>
+            <div class="footer_div desktop_view">
+                <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+                </div>
+                <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+                </div>
+            </div>
+        </div>
+        <div class="footer_div tablet_view">
+            <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
+            <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
+        </div>
+        <div class="copyright_footer">
+            <p> &copy; 2Trash1Battle | Tous droits réservés</p>
+        </div>
+    </footer>
 
 	</body>
 </html>
