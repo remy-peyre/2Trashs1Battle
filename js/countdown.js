@@ -37,7 +37,6 @@ window.onload = function () {
     timer = setInterval(showRemaining, 1000);
 
     ws = new WebSocket("ws://localhost:5678");
-    //ws.send("hello");
         ws.onmessage = function (event) {
             console.log(event.data);
         };
