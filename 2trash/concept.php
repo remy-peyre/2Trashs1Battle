@@ -171,9 +171,9 @@
             <!--<div id="myBtn class="find_trash">
  -->
 			<div id="myBtn" class="find_trash">
-				<a class="color_find_trash" href="#">
+				<div class="color_find_trash">
 					Trouver une poubelle !
-				</a>
+				</div>
 			</div>
 
             <!-- Trigger/Open The Modal -->
