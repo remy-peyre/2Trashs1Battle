@@ -16,8 +16,14 @@
 
 		<!-- JS -->
 		<script src="../js/jquery-1.11.3.min.js"></script>
+        <script src="../js/modal.js"></script>
 		<script src="../js/script.js"></script>
 		<script src="../js/ajax_news.js"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5FLOtt9k5ikQQpd9rDlu9yLIOwGkk2yM&callback=initMap">
+        </script>
+        <script src="../js/googleapi.js"></script>
+
 	</head>
 	<body>
 	<nav>
@@ -158,11 +164,33 @@
             <div class="size_gif_concept">
                 <video loop muted autoplay src="../css/illu_mobile/gif.mp4">coucou</video>
             </div>
-			<div class="find_trash">
+
+            <!--<div id="myBtn class="find_trash">
+ -->
+			<div id="myBtn" class="find_trash">
 				<a class="color_find_trash" href="#">
 					Trouver une poubelle !
 				</a>
 			</div>
+
+            <!-- Trigger/Open The Modal -->
+            <!--<button id="myBtn">Open Modal</button>-->
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Modal Header</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+
 		</section>
 	</main>
 
