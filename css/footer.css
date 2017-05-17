@@ -31,10 +31,19 @@
     }
     .desktop_view {
         display: block;
-        width: 100%;
         height: auto;
         text-align: center;
-        margin-top: 35px;
+        margin-top: 13px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width 1440px){
+    .desktop_view {
+        display: block;
+        height: auto;
+        text-align: center;
+        margin-top: 13px;
         margin-left: 16px;
     }
 }

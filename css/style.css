@@ -1826,6 +1826,10 @@ footer > h3{
         font-size: 18px;
     }
 
+    .downloadme {
+    width: 51%;
+}
+
 
      /*----------------------*/
     /*------ FOOTER -------*/
@@ -1843,9 +1847,7 @@ footer > h3{
         margin-left: 52%;
         font-size: 13px;
     }
-    .desktop_view {
-        margin-left: 64px;
-    }
+
     /*----------------------*/
     /*------ CURRENT-BATTLE -------*/
     /*----------------------*/
