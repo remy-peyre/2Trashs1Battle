@@ -1591,7 +1591,7 @@ footer > h3{
         align-items: center;
     }
     .downloadme{
-        width: 70%;
+        width: 54%;
     }
 
     /*----------------------*/
@@ -1827,7 +1827,8 @@ footer > h3{
     }
 
     .downloadme {
-    width: 51%;
+    width: 42%;
+    height: 226px;
 }
 
 
