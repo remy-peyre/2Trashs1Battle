@@ -1,4 +1,4 @@
-# 2Trashs1Battle
+<h1 style="text-align:center;">2 Trash 1 Battle</h1>
 
 <img src="css/trashclose.png" width="500px" />
 
