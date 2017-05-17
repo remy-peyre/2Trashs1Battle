@@ -1797,6 +1797,118 @@ footer > h3{
 
 }
 
+@media screen and (min-width: 1440px) {
+     /*----------------------*/
+    /*------ MENU -------*/
+    /*----------------------*/
+    nav ul {
+        margin-left: 44%;
+        font-size: 19px;
+    }
+
+     /*----------------------*/
+    /*------ ACCUEIL -------*/
+    /*----------------------*/
+    .home_current_battle {
+        height: 900px;
+    }
+    .home_concept {
+        height: 900px;
+    }
+    .home_next_battles {
+        height: 900px;
+    }
+    .home_contact {
+        height: 900px;
+    }
+    .button_home {
+        padding: 15px 10px 15px 10px;
+        font-size: 18px;
+    }
+
+
+     /*----------------------*/
+    /*------ FOOTER -------*/
+    /*----------------------*/
+
+    .footer_left_part {
+        width: 38%;
+        font-size: 22px;
+    }
+
+    .footer_right_part {
+        width: 35%;
+    }
+    .copyright_footer {
+        margin-left: 52%;
+        font-size: 13px;
+    }
+    .desktop_view {
+        margin-left: 64px;
+    }
+    /*----------------------*/
+    /*------ CURRENT-BATTLE -------*/
+    /*----------------------*/
+
+    /*----------------------*/
+    /*------ concept -------*/
+    /*----------------------*/
+    .concept {
+        width: 80%;
+        margin: auto;
+    }
+    .third_square_concept {
+        height: 315px;
+    }
+    .size_mobile {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .concept p {
+        line-height: 140%;
+        font-size: 18px;
+    }
+    .align_top3 {
+    margin-top: 22px;
+    }
+    .arrow {
+        display: flex;
+        margin-top: 67px;
+    }
+    .size_subtitle_concept_lastpart {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .third_p_concept .p_size_concept{
+        font-size: 21px;
+    }
+
+     /*----------------------*/
+    /*------ NEXT-BATTLE -------*/
+    /*----------------------*/
+    .bold {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 36%;
+    }
+    .all_struct_twitter {
+        width: 50%;
+        margin-left: 37%;
+    }
+    /*------old----------*/
+   #display_section_old_battle {
+        width: 80%;
+        margin: auto;
+    }
+    #display_section_vote{
+        width: 80%;
+        margin: auto;
+    }
+    #countdown {
+        margin-bottom: 30px;
+    }
+}
 
 
 
