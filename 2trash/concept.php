@@ -11,8 +11,8 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="../css/ionicons.min.css">
 		<link rel="stylesheet" href="../css/style.css">
-
-		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/footer.css">
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<!-- JS -->
 		<script src="../js/jquery-1.11.3.min.js"></script>
@@ -146,6 +146,9 @@
 				<p>
 					<span class="question_concept">Et si on vous dit qu’il est possible de recycler les mégots de cigarette ?</span>
 				</p>
+                <div class="size_gif_concept hide_tablet">
+                    <video loop muted autoplay src="../css/illu_mobile/gif.mp4"></video>
+                </div>
 				<p>
 					Tout d’abord, nos mégots récoltés seront distribués à notre partenaire Terracycle, qui prendra en main le processus de recyclage.
 				</p>
@@ -161,8 +164,8 @@
 					vous nous aidez aussi à résoudre un sérieux problème écologique que représentent les mégots jettés par terre !
 				</p>
 			</div>
-            <div class="size_gif_concept">
-                <video loop muted autoplay src="../css/illu_mobile/gif.mp4">coucou</video>
+            <div class="size_gif_concept hide">
+                <video loop muted autoplay src="../css/illu_mobile/gif.mp4"></video>
             </div>
 
             <!--<div id="myBtn class="find_trash">
@@ -205,6 +208,12 @@
 				<input class="footer_submit" type="submit" class="btn" value="S'inscrire" id="form_news">
 			</form>
 		</div>
+        <div class="footer_div hide_tablet">
+            <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
+            <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
+        </div>
 		<div class="link_footer footer_right_part">
 			<p><a href="index.php">Accueil</a></p>
 			<p><a href="current_battle.php">Battle du moment</a></p>

@@ -12,6 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/ionicons.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link href="../Hover/css/hover.css" rel="stylesheet" media="all">
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
@@ -105,12 +106,30 @@
 				<input class="footer_submit hvr-grow-shadow" type="submit" class="btn" value="S'inscrire" id="form_news">
 			</form>
         </div>
+        <div class="footer_div">
+            <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
+            <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
+        </div>
         <div class="link_footer footer_right_part">
             <p><a class="none" href="index.php">Accueil</a></p>
             <p><a href="current_battle.php">Battle du moment</a></p>
             <p><a href="concept.php">Notre concept</a></p>
             <p><a href="next-battle.php">Prochaine battle</a></p>
             <p><a href="contact.php">Nous contacter</a></p>
+            <div class="footer_div desktop_view">
+                <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+                </div>
+                <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+                </div>
+            </div>
+        </div>
+        <div class="footer_div tablet_view">
+            <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
+            <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            </div>
         </div>
         <div class="copyright_footer">
             <p> &copy; 2Trash1Battle | Tous droits réservés</p>

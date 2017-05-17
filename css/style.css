@@ -392,6 +392,9 @@ video{
 .find_trash{
     display: none;
 }
+.hide{
+    display: none;
+}
 
 /*--------------------------*/
 /* The Modal (background) */
@@ -1318,7 +1321,12 @@ footer > h3{
     .align_title3{
         margin-top: 13px;
     }
-
+    .hide{
+        display: block;
+    }
+    .hide_tablet{
+        display: none;
+    }
     /*----------------------*/
     /*---- CUR-BATTTLE -----*/
     /*----------------------*/
@@ -1528,12 +1536,12 @@ footer > h3{
     .footer_left_part{
         width: 38%;
     }
-
     .footer_right_part {
         width: 52%;
         display: inline-flex;
         justify-content: flex-end;
         margin-top: 20px;
+        flex-wrap: wrap;
         padding-right: 21px;
     }
     .copyright_footer {
