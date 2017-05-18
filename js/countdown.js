@@ -37,9 +37,49 @@ window.onload = function () {
     timer = setInterval(showRemaining, 1000);
 
     ws = new WebSocket("ws://localhost:5678");
+    if (ws.readyState === ws.CONNECTING) {
         ws.onmessage = function (event) {
-            console.log(event.data);
+            var stats_one = document.getElementById("stats1");
+            var stats_two = document.getElementById("stats2");
+            var total = document.getElementById("gramme");
+            var serpentard_width = document.getElementById("serpentard_width");
+            var griffondor_width = document.getElementById("griffondor_width");
+            stats_two.innerHTML = event.data;
+            var pound_one = 0.30;
+            var rate = Math.floor(((event.data - pound_one) / event.data) * 100);
+            //console.log(rate);
+            if (rate < 0 || isNaN(rate)) {
+                stats_one.innerHTML = "100 %";
+                stats_two.innerHTML = "0 %";
+                total.innerHTML = pound_one + " g";
+                serpentard_width.style.width = "0%";
+                griffondor_width.style.width = "100%";
+            }
+            else {
+                stats_two.innerHTML = rate + " %";
+                serpentard_width.style.width = rate + "%";
+                griffondor_width.style.width = 100 - rate + "%";
+                stats_one.innerHTML = 100 - rate + "%";
+                var total_pounds = (parseFloat(event.data + pound_one)*100)/100  ;
+                if(total_pounds <1.0){
+                    total.innerHTML = total_pounds + " g";
+                }
+                else{
+                    total.innerHTML = total_pounds + " kg";
+                }
+            }
+            //console.log(event.data);
         };
+    }
 
+    else if (ws.readyState === ws.CLOSED) {
+        var stats_one = document.getElementById("stats1");
+        var stats_two = document.getElementById("stats2");
+        var total = document.getElementById("gramme");
+        var serpentard_width = document.getElementById("serpentard_width");
+        var griffondor_width = document.getElementById("griffondor_width");
+        serpentard_width.style.width = "70%";
+        griffondor_width.style.width = "30%";
+    }
 
 }
