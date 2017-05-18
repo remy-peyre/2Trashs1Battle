@@ -492,7 +492,8 @@ video{
     height: 200px;
     background-image: url("../css/iron_captain.png");
     background-repeat: no-repeat;
-    background-position: 47% -393px;
+    background-attachment: local;
+    background-size: 100% 123%;
     margin-top: 10px;
 }
 .bold{
