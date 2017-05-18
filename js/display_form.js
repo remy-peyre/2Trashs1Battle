@@ -30,4 +30,10 @@ window.onload = function(){
         display_form_user.className = "container none";
         display_form_company.className = "container none";
     }
+
+    $('#img_anim').hover(function(){
+        $(".wrp3").css("visibility","visible");
+    }, function(){
+        $(".wrp3").css("visibility","hidden");
+    });
 }

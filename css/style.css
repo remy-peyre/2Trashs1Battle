@@ -795,6 +795,9 @@ display: none;
 /*----------------*/
 /*----Contact-----*/
 /*----------------*/
+    #anim_trash{
+        display: none;
+    }
 
 .title_center_contact{
     text-align: center;
@@ -1519,13 +1522,64 @@ footer > h3{
     /*----------------------*/
     /*------ CONTACT -------*/
     /*----------------------*/
-    .page_contact{
-        background-image: url(../css/illu_tab_desk/decopoubelle.png);
-        background-repeat: no-repeat;
-        background-position: left 12px bottom 12px;
-        background-attachment: local;
-        background-size: 70px 65px;
+    #anim_trash{
+        display: block;
+        width: 359px;
     }
+
+    #img_anim{
+        width: 100px;
+    margin-left: 216px;
+    margin-bottom: 8px;
+    }
+
+    #img_anim:hover .wrp3{
+        display: block;
+    }
+
+    .wrp3{ 
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    position: relative;
+    opacity: 1;
+    top: -26px;
+    right: 0px;
+}
+h2.headline3{
+    background: #fff;
+    border-radius: 6px 6px 0px 6px;
+    width: auto;
+    display: inline-block;
+    padding: 6px 20px;
+    box-shadow: 3px 3px 2px #d2d2d2;
+    margin: -7px 65px 0 0;
+    font-weight: 900;
+    position: relative;
+    color: #333736;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 22px;
+}
+h2.headline3:after{
+    content: "";
+    background: #fff;
+    width: 11px;
+    height: 12px;
+    /* outline: 4px dashed red; */
+    width: 11px;
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    box-shadow: 3px 3px 2px #d2d2d2;
+    border-radius: 0px 0px 0px 10px;
+      z-index: 3;
+}
+
+#number{
+    transform: scaleX(-1);
+}
+
     .flex_align_case_contact{
         font-size: 1.2rem;
     }
