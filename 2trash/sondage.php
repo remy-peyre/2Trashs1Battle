@@ -18,7 +18,7 @@
         {
             die('Erreur : '.$e->getMessage());
         }
-        $test_ip = "SELECT * FROM list_ip WHERE ip = '$ip' ";
+        $test_ip = "SELECT * FROM choice_ip WHERE ip = '$ip' ";
         $reponse_ip = $bdd->prepare($test_ip);
         $reponse_ip->execute();
         $reponse_ip =  $reponse_ip->fetch();
@@ -27,7 +27,8 @@
         }
 
         else{
-        $q ="INSERT INTO list_ip (ip) VALUES ('$ip')" ;
+        $choice = $_POST['choice_survey'];
+        $q ="INSERT INTO choice_ip (ip, choice) VALUES ('$ip' , '$choice' )" ;
         $reponse = $bdd->prepare($q);
         $reponse->execute();
         return true;
