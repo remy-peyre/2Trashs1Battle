@@ -88,7 +88,7 @@
 
             </div>
             <div class="center_categories_next-battle bold">
-                <p class="no_marge">Rejoignez-nous le Jeudi 18 Mai pour une</p>
+                <p class="no_marge">Rejoignez-nous le 04 Juin pour une</p>
                 <p class="no_marge">&nbsp;battle du tonnerre!</p>
             </div>
             <div class="join_us_next_battle">

@@ -1945,7 +1945,7 @@ footer > h3{
         margin: auto;
     }
     #display_section_vote{
-        width: 80%;
+        width: 70%;
         margin: auto;
     }
     #countdown {
@@ -1980,16 +1980,25 @@ footer > h3{
     #vote_one{
     background: url(../css/sucre_vs_sale.png);
     background-size: 100% 100%;
-    /*height: 200px;
-    width: 250px;*/
+    height: 200px;
+    width: 250px;
     }
 
     #vote_two{
     background: url(../css/cat_vs_dog.png);
     background-size: 100% 100%;
-    /*height: 200px;
-    width: 250px;*/
+    height: 200px;
+    width: 250px;
     }
+    .form_vote input[type="submit"] {
+        width: 36%;
+        padding: 19px;
+        /* font-size: 21px; */
+        font-size: 18px;
+        margin-top: 54px;
+    }
+
+
 
 }
 
