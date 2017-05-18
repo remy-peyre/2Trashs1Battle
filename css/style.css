@@ -694,6 +694,27 @@ transition: all 0.1s ease-out;
     margin-bottom: 21px;
 }
 
+#vote_one{
+background: url(../css/sucre_vs_sale.png);
+background-size: 100% 100%;
+width: 30%;
+height: 110px;
+}
+
+#vote_two{
+background: url(../css/cat_vs_dog.png);
+background-size: 100% 100%;
+width: 30%;
+height: 110px;
+}
+
+#vote_three{
+background: url(../css/poubelle_skie_plage.png);
+background-size: 100% 100%;
+width: 30%;
+height: 110px;
+}
+
 /*----------------------*/
 /*---- CURR-BATTLE -----*/
 /*----------------------*/
@@ -1520,6 +1541,27 @@ footer > h3{
         margin-right: auto;
     }
 
+#vote_one{
+background: url(../css/sucre_vs_sale.png);
+background-size: 100% 100%;
+width: 25%;
+height: 175px;
+}
+
+#vote_two{
+background: url(../css/cat_vs_dog.png);
+background-size: 100% 100%;
+width: 25%;
+height: 175px;
+}
+
+#vote_three{
+background: url(../css/poubelle_skie_plage.png);
+background-size: 100% 100%;
+width: 25%;
+height: 175px;
+}
+
     /*----------------------*/
     /*------ CONTACT -------*/
     /*----------------------*/
@@ -1851,7 +1893,26 @@ h2.headline3:after{
         margin-left: auto;
         margin-right: auto;
     }
+    #vote_one{
+    background: url(../css/sucre_vs_sale.png);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    }
 
+    #vote_two{
+    background: url(../css/cat_vs_dog.png);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    }
+
+    #vote_three{
+    background: url(../css/poubelle_skie_plage.png);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    }
     /*----------------------*/
     /*------ CONTACT -------*/
     /*----------------------*/
@@ -2045,6 +2106,14 @@ h2.headline3:after{
     height: 200px;
     width: 250px;
     }
+
+    #vote_three{
+    background: url(../css/poubelle_skie_plage.png);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    }
+
     .form_vote input[type="submit"] {
         width: 36%;
         padding: 19px;
