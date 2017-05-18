@@ -17,5 +17,5 @@
 <img src="css/arduino/shema.png" width="500px" />
 <p>For this example I'm showing it with a 5V supply but note that you can use this with a 3.3v supply just as easily. In this configuration the analog voltage reading ranges from 0V (ground) to about 5V (or about the same as the power supply voltage).</p>
 <p>Concrete project here : </p>
-<img src="css/arduino/projet.png" width="500px" />
+<img src="css/arduino/projet.jpg" width="500px" />
 
