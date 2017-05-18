@@ -1,4 +1,5 @@
 //https://learn.adafruit.com/force-sensitive-resistor-fsr/using-an-fsr
+//a simple documentation about force sensor 
 
  
 int fsrPin = 0;     // the FSR and 10K pulldown are connected to a0
@@ -51,7 +52,7 @@ void loop(void) {
     }
   }*/
   //Serial.print("Analog reading = ");
-  Serial.println(fsrReading/9.81);     // the raw analog reading
+  Serial.println(fsrReading/9.81);     // the raw analog reading, converting in gram
  
   /* We'll have a few threshholds, qualitatively determined
   if (fsrReading < 10) {

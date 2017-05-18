@@ -228,6 +228,12 @@
             </div>
             <div id="result_form_contact" class="bounce"></div>
         </section>
+        <div id="anim_trash">
+            <div class='wrp3'>
+            <h2 class='headline3'><span id="number">Joignez nous par téléphone : 118 218</span></h2>
+            </div>
+            <img src="../css/illu_tab_desk/decopoubelle.png" id="img_anim" class="hvr-buzz-out">
+        </div>
 	</main>
 
     <footer>

@@ -99,16 +99,16 @@
 
 				<div class="line_pourcentage">
 					<div class="stats">
-						<div>30%</div>
-						<div>70%</div>
+						<div id="stats1">30%</div>
+						<div id="stats2">70%</div>
 					</div>
 					<div class="color_stats">
-						<div class="stats_gryffon"></div>
-						<div class="stats_serpan"></div>
+						<div class="stats_gryffon" id="griffondor_width"></div>
+						<div class="stats_serpan" id="serpentard_width"></div>
 					</div>
 				</div>
 				<div class="center width_total">
-					<p> Grâce à vous, 3kg de mégots vont pouvoir être recylclés!</p>
+					<p> Grâce à vous, <span id="gramme">3kg</span> de mégots vont pouvoir être recylclés!</p>
 				</div>
 				<div class="center_title_google">
 					<p>Trouvez les battles près de chez vous!</p>

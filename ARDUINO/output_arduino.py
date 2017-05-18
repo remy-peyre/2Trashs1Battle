@@ -1,3 +1,4 @@
+#This is a simple test code for put the gram in a file
 import serial
 ser = serial.Serial("COM3",timeout=3)
 file = open("output.txt","a") 

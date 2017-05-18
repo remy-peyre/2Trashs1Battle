@@ -28,7 +28,7 @@ $(document).ready(function () {
                         $( "#result_survey" ).empty();
                         $("#result_survey").css("display", "none");
                         $("#result_survey").css("display", "block");
-                        $( "#result_survey" ).append('<p>Merci ! Les résultats seront disponibles le 25 Mai ! </p><img style="width:145px;" src="../css/trashclose.png">');
+                        $( "#result_survey" ).append('<p>Merci ! Les résultats seront disponibles le 04 Juin ! </p><img style="width:145px;" src="../css/trashclose.png">');
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) { 

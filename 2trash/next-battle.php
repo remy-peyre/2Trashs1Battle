@@ -88,7 +88,7 @@
 
             </div>
             <div class="center_categories_next-battle bold">
-                <p class="no_marge">Rejoignez-nous le Jeudi 18 Mai pour une</p>
+                <p class="no_marge">Rejoignez-nous le 04 Juin pour une</p>
                 <p class="no_marge">&nbsp;battle du tonnerre!</p>
             </div>
             <div class="join_us_next_battle">
@@ -117,37 +117,37 @@
             </div>
 
             <div class="first_row_flex_old_battle">
-                <div class="first_square_pic"></div>
+                <div class="first_square_pic" id="first_battle"></div>
                 <div class="little_square_first">
-                    <p class="uppercase_name">nom de battle</p>
+                    <p class="uppercase_name">rugby - foot</p>
                     <p>score</p>
                     <div class="inline_second_square">
-                        <p>70%</p>
                         <p>30%</p>
+                        <p>70%</p>
                     </div>
                 </div>
             </div>
 
             <div class="first_row_flex_old_battle">
                 <div class="little_square_first">
-                    <p class="uppercase_name">nom de battle</p>
+                    <p class="uppercase_name">cape ten US - hi run man </p>
                     <p>score</p>
                     <div class="inline_second_square">
-                        <p>14%</p>
                         <p>86%</p>
+                        <p>14%</p>
                     </div>
                 </div>
-                <div class="first_square_pic"></div>
+                <div class="first_square_pic" id="second_battle"></div>
             </div>
 
             <div class="first_row_flex_old_battle">
-                <div class="first_square_pic"></div>
+                <div class="first_square_pic" id="thirth_battle"></div>
                 <div class="little_square_first">
-                    <p class="uppercase_name">nom de battle</p>
+                    <p class="uppercase_name">kauka - faon ta</p>
                     <p>score</p>
                     <div class="inline_second_square">
-                        <p>35%</p>
                         <p>65%</p>
+                        <p>35%</p>
                     </div>
                 </div>
             </div>
@@ -158,14 +158,14 @@
             <div class="title_vote">Quelle battle voulez-vous voir prendre forme ?</div>
 
             <form class="form_vote" action="sondage.php" method="post" id="form_survey">
-                <input type="radio" id="one" name="choice_survey" value="1">
-                <label class="square_form_vote" for="one"></label><br>
+                <input type="radio" id="one" name="choice_survey" value="sugar_sal">
+                <label class="square_form_vote" id ="vote_one" for="one"></label><br>
 
-                <input type="radio" id="two" name="choice_survey" value="2">
-                <label class="square_form_vote" for="two"></label><br>
+                <input type="radio" id="two" name="choice_survey" value="dog_cat">
+                <label class="square_form_vote" id ="vote_two" for="two"></label><br>
 
                 <input type="radio" id="tree" name="choice_survey" value="3">
-                <label class="square_form_vote" for="tree"></label><br>
+                <label class="square_form_vote" id ="vote_three" for="tree"></label><br>
 
                 <input type="submit" value="VOTER" name="form_submit_survey" id="form_submit_survey" class="hvr-grow-shadow">
             </form>
