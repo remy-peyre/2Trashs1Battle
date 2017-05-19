@@ -164,7 +164,7 @@
                 <input type="radio" id="two" name="choice_survey" value="dog_cat">
                 <label class="square_form_vote" id ="vote_two" for="two"></label><br>
 
-                <input type="radio" id="tree" name="choice_survey" value="3">
+                <input type="radio" id="tree" name="choice_survey" value="ski_beach">
                 <label class="square_form_vote" id ="vote_three" for="tree"></label><br>
 
                 <input type="submit" value="VOTER" name="form_submit_survey" id="form_submit_survey" class="hvr-grow-shadow">

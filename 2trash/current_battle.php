@@ -123,8 +123,8 @@
             <div class="square_end_current">
                 <div class="square_last_battle"></div>
                 <div class="second_part_square">
-                     <div class="square marge_square"></div>
-                     <div class="square "></div>
+                     <div class="square1 marge_square"></div>
+                     <div class="square2 "></div>
                 </div>
             </div>
 			<div class="button hvr-grow-shadow" style="display:block">
