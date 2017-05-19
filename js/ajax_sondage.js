@@ -17,14 +17,12 @@ $(document).ready(function () {
                 cache: false,
                 success: function (result) {
                     if(result== "    voted"){
-                        console.log(result);
                         $( "#result_survey" ).empty();
                         $("#result_survey").css("display", "none");
                         $("#result_survey").css("display", "block");
                         $( "#result_survey" ).append('<p>Vous avez déjà voté :( </p><img style="width:65px;" src="../css/sad.png">');
                     }
                     else{
-                        console.log(result);
                         $( "#result_survey" ).empty();
                         $("#result_survey").css("display", "none");
                         $("#result_survey").css("display", "block");

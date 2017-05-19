@@ -85,7 +85,7 @@
 			<div class="flex_row_battle">
 				<div class="center">
 					<img class="size_trash_next_battle" src="../css/gryffon.png" alt="nom de battle">
-					<p class="pourcentage_mobile">XX%</p>
+					<p class="pourcentage_mobile">40%</p>
 					<img class="size_name_team" src="../css/gryff_ai.png" alt="nom de battle">
 				</div>
 				<div>
@@ -93,7 +93,7 @@
 				</div>
 				<div class="center">
 					<img class="size_trash_next_battle" src="../css/serpentard.png" alt="nom de battle">
-					<p class="pourcentage_mobile">XX%</p>
+					<p class="pourcentage_mobile">60%</p>
 					<img class="size_name_team" src="../css/serp_ai.png" alt="nom de battle">
 				</div>
 
