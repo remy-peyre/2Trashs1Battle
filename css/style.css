@@ -1447,6 +1447,7 @@ footer > h3{
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         margin-top: 10px;
+        transition: 0.9s all;
     }
     .stats_serpan{
         width: 70%;
@@ -1455,6 +1456,7 @@ footer > h3{
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         margin-top: 10px;
+        transition: 0.9s all;
 
     }
     .color_stats{
