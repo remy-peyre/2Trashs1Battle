@@ -150,9 +150,9 @@
             </form>
         </div>
         <div class="footer_div">
-            <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy" target="_blank" href="https://www.facebook.com/2Trash1Battle/?fref=ts">
             </div>
-            <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
+            <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy" target="_blank" href="https://twitter.com/2Trash1Battle">
             </div>
         </div>
         <div class="link_footer footer_right_part">
@@ -162,17 +162,17 @@
             <p><a href="next-battle.php">Prochaine battle</a></p>
             <p><a href="contact.php">Nous contacter</a></p>
             <div class="footer_div desktop_view">
-                <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
-                </div>
-                <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
-                </div>
+                <a class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy" target="_blank" href="https://www.facebook.com/2Trash1Battle/?fref=ts">
+                </a>
+                <a class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy" target="_blank" href="https://twitter.com/2Trash1Battle">
+                </a>
             </div>
         </div>
         <div class="footer_div tablet_view">
-            <div class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
-            </div>
-            <div class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy">
-            </div>
+            <a class="_2V0DNe9b5bQu46I_uujrG7 _16O-eCHzZunQvcyy7I8zUQ _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy" target="_blank" href="https://www.facebook.com/2Trash1Battle/?fref=ts">
+            </a>
+            <a class="_2cZVduiqTZOjd_11SpdBDH _12lVcnt6PnujdWtpCynuB4 _2nwluuq-gBupJmVNwIMyEy _1Fba10Vcpc4_UBtLy_oMYy" target="_blank" href="https://twitter.com/2Trash1Battle">
+            </a>
         </div>
         <div class="copyright_footer">
             <p> &copy; 2Trash1Battle | Tous droits réservés</p>
