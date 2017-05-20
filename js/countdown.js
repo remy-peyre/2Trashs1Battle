@@ -60,11 +60,11 @@ window.onload = function () {
                 serpentard_width.style.width = rate + "%";
                 griffondor_width.style.width = 100 - rate + "%";
                 stats_one.innerHTML = 100 - rate + "%";
-                var total_pounds = (parseFloat(event.data + pound_one)*100)/100  ;
-                if(total_pounds <1.0){
+                var total_pounds = (parseFloat(event.data + pound_one) * 100) / 100;
+                if (total_pounds < 1.0) {
                     total.innerHTML = total_pounds + " g";
                 }
-                else{
+                else {
                     total.innerHTML = total_pounds + " kg";
                 }
             }

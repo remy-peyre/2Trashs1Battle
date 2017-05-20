@@ -13,11 +13,11 @@ $(document).ready(function () {
         if (email == '' || name == '' || activity == '' || adress == '' || subject == '' || body_mail == '') {
             $("#result_form_contact").empty();
             $("#result_form_contact").css({
-                        'margin-left': 'auto',
-                        'text-align': 'center',
-                        'width': '248px',
-                        'display': '-webkit-box',
-                        'margin-right': 'auto'
+                'margin-left': 'auto',
+                'text-align': 'center',
+                'width': '248px',
+                'display': '-webkit-box',
+                'margin-right': 'auto'
             });
             $("#result_form_contact").append('<p style="color:black;">Tous les champs ne sont pas remplis ! :( </p><img style="width:65px;" src="../css/sad.png">');
         }
@@ -25,11 +25,11 @@ $(document).ready(function () {
         else if (re.test(email) != true) {
             $("#result_form_contact").empty();
             $("#result_form_contact").css({
-                        'margin-left': 'auto',
-                        'text-align': 'center',
-                        'width': '248px',
-                        'display': '-webkit-box',
-                        'margin-right': 'auto'
+                'margin-left': 'auto',
+                'text-align': 'center',
+                'width': '248px',
+                'display': '-webkit-box',
+                'margin-right': 'auto'
             });
             $("#result_form_contact").append('<p style="color:black;">Email non valide :( ! </p><img style="width:65px;" src="../css/sad.png">');
         }
@@ -43,32 +43,32 @@ $(document).ready(function () {
                     if (result == "Mailer Error: ") {
                         $("#result_form_contact").empty();
                         $("#result_form_contact").css({
-                                    'margin-left': 'auto',
-                                    'text-align': 'center',
-                                    'width': '248px',
-                                    'display': '-webkit-box',
-                                    'margin-right': 'auto'
+                            'margin-left': 'auto',
+                            'text-align': 'center',
+                            'width': '248px',
+                            'display': '-webkit-box',
+                            'margin-right': 'auto'
                         });
                         $("#result_form_contact").append('<p style="color:black;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
                     }
                     else {
                         $("#result_form_contact").empty();
                         $("#result_form_contact").css({
-                                    'margin-left': 'auto',
-                                    'text-align': 'center',
-                                    'width': '248px',
-                                    'display': '-webkit-box',
-                                    'margin-right': 'auto'
+                            'margin-left': 'auto',
+                            'text-align': 'center',
+                            'width': '248px',
+                            'display': '-webkit-box',
+                            'margin-right': 'auto'
                         });
                         $("#result_form_contact").append('<p style="color:black;">Message bien envoyé  :) ! </p><img style="width:80px;" src="../css/trashclose.png">');
                     }
                 },
                 error: function (XMLHttpRequest, textStatus, errorThrown) {
-                        $( "#result_form_contact" ).empty();
-                        $("#result_form_contact").css("display", "none");
-                        $("#result_form_contact").css("display", "-webkit-box");
-                        $("#result_form_contact").css("width", "293px");
-                        $( "#result_form_contact" ).append('<p style="color:black;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
+                    $("#result_form_contact").empty();
+                    $("#result_form_contact").css("display", "none");
+                    $("#result_form_contact").css("display", "-webkit-box");
+                    $("#result_form_contact").css("width", "293px");
+                    $("#result_form_contact").append('<p style="color:black;">Erreur lors de l\'envoie du mail :( </p><img style="width:65px;" src="../css/sad.png">');
                 }
             });
         }

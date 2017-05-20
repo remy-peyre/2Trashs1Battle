@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function () {
     var display_next_battle = document.getElementById("display_next_battle");
     var display_old_battle = document.getElementById("display_old_battle");
     var display_vote = document.getElementById("display_vote");
@@ -6,7 +6,7 @@ window.onload = function(){
     var display_section_old_battle = document.getElementById("display_section_old_battle");
     var display_section_vote = document.getElementById("display_section_vote");
 
-    display_next_battle.onclick = function(){
+    display_next_battle.onclick = function () {
         this.className = "center_categories_next-battle color_cate_next_battle";
         display_section_next_battle.className = "bounce";
         display_old_battle.classList.remove("color_cate_next_battle");
@@ -18,7 +18,7 @@ window.onload = function(){
         display_section_vote.style.display = "none";
     }
 
-    display_old_battle.onclick = function(){
+    display_old_battle.onclick = function () {
         this.className = "center_categories_next-battle color_cate_next_battle";
         display_section_old_battle.className = "bounce"
         display_next_battle.classList.remove("color_cate_next_battle");
@@ -28,7 +28,7 @@ window.onload = function(){
         display_section_vote.style.display = "none";
     }
 
-    display_vote.onclick = function(){
+    display_vote.onclick = function () {
         this.className = "center_categories_next-battle color_cate_next_battle";
         display_section_vote.className = "bounce";
         display_next_battle.classList.remove("color_cate_next_battle");
@@ -64,7 +64,7 @@ window.onload = function(){
         document.getElementById('countdown').innerHTML = days + ' :  ';
         document.getElementById('countdown').innerHTML += hours + ' : ';
         document.getElementById('countdown').innerHTML += minutes + ' : ';
-        document.getElementById('countdown').innerHTML += seconds ;
+        document.getElementById('countdown').innerHTML += seconds;
     }
 
     timer = setInterval(showRemaining, 1000);

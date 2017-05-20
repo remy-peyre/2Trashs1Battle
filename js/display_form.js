@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function () {
     var display_company = document.getElementById("display_company");
     var display_association = document.getElementById("display_association");
     var display_user = document.getElementById("display_user");
@@ -6,7 +6,7 @@ window.onload = function(){
     var display_form_association = document.getElementById("display_form_association");
     var display_form_user = document.getElementById("display_form_user");
 
-    display_user.onclick = function(){
+    display_user.onclick = function () {
         this.className = "color_title_form";
         display_company.classList.remove("color_title_form");
         display_association.classList.remove("color_title_form");
@@ -14,7 +14,7 @@ window.onload = function(){
         display_form_company.className = "container none";
         display_form_association.className = "container none";
     }
-    display_company.onclick = function(){
+    display_company.onclick = function () {
         this.className = "color_title_form";
         display_user.classList.remove("color_title_form");
         display_association.classList.remove("color_title_form");
@@ -22,7 +22,7 @@ window.onload = function(){
         display_form_user.className = "container none";
         display_form_association.className = "container none";
     }
-    display_association.onclick = function(){
+    display_association.onclick = function () {
         this.className = "color_title_form";
         display_user.classList.remove("color_title_form");
         display_company.classList.remove("color_title_form");
@@ -31,9 +31,9 @@ window.onload = function(){
         display_form_company.className = "container none";
     }
 
-    $('#img_anim').hover(function(){
-        $(".wrp3").css("visibility","visible");
-    }, function(){
-        $(".wrp3").css("visibility","hidden");
+    $('#img_anim').hover(function () {
+        $(".wrp3").css("visibility", "visible");
+    }, function () {
+        $(".wrp3").css("visibility", "hidden");
     });
 }
