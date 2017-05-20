@@ -38,7 +38,7 @@
     }
 }
 
-@media screen and (min-width 1440px){
+@media screen and (min-width :1440px){
     .desktop_view {
         display: block;
         height: auto;
