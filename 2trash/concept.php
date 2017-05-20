@@ -87,11 +87,10 @@
                         </p>
                     </div>
                     <div class="text_square_concept_one align_top">
-                        <p class="size_mobile">Avec la map de Paris, trouvez les
-                        points participants à l’évènement.
-                        Choisissez votre camp favori et
-                        jetter vos déchets pour le faire
-                        gagner.
+                        <p class="size_mobile">Avec notre carte interactive de Paris,
+                            trouvez les points participants au concept.
+                            Choisissez votre camp favori et jetez vos déchets
+                            pour faire gagner votre équipe !
                         </p>
                     </div>
                 </div>
@@ -101,18 +100,16 @@
                     </div>
                     <div class="title_square_concept">
                         <p>
-                            Jetter vos déchets
+                            Jeter vos déchets
                         </p>
                     </div>
                     <div class="text_square_concept">
                         <div class="mini_round">
                             <img class="arrow" src="../css/illu_mobile/arrow.png" alt="fleche">
                         </div>
-                        <p class="size_p_arrow align_top2">Plus d’excuses pour jetter vos
-                            mégots et chewing-gum par terre!
-                            Nous avons LA solution à la fois
-                            ludique et intelligible pour rendre
-                            notre ville propre.
+                        <p class="size_p_arrow align_top2">Plus d’excuses pour jeter vos mégots de cigarette par terre !
+                            Nous avons LA solution à la fois ludique
+                            et intelligible pour rendre notre ville propre.
                         </p>
                     </div>
                 </div>
@@ -129,12 +126,11 @@
                         <div class="mini_round">
                             <img class="arrow second_try" src="../css/illu_mobile/arrow.png" alt="fleche">
                         </div>
-                        <p class="align_top3">Votre participation permettra à vos
-                            mégots d’être distribués à
-                            Terracycle pour permettre la
-                            fabrication d’autres éléments
-                            tels que le composte ou des billes
-                            de plastique.
+                        <p class="align_top3">Votre participation permettra à
+                            vos mégots d’être distribués à
+                            Terracycle pour permettre la fabrication
+                            d’autres éléments tels que des billes en plastique
+                            ou du compost.
                         </p>
                     </div>
                 </div>
@@ -151,18 +147,18 @@
                     <video loop muted autoplay src="../css/illu_mobile/gif.mp4"></video>
                 </div>
 				<p class="p_size_concept">
-					Tout d’abord, nos mégots récoltés seront distribués à notre partenaire Terracycle, qui prendra en main le processus de recyclage.
-				</p>
+                    Tout d'abord, nos mégots récoltés seront distribués à notre partenaire Terracycle qui va prendre en main le processus de recyclage.
+                </p>
 				<p class="p_size_concept">
-					Ensuite le papier et le reste de tabac (y compris les cendres) seront transformés en compost, qui sera utilisé dans l’aménagement du paysage.
+                    Ensuite, le papier et le reste du tabac (y compris les cendres) seront transformés en compost, qui sera utilisé dans l'aménagement du paysage.
 				</p>
 				<p class="p_size_concept">
 					Le filtre quand à lui, sera recyclé en petites billes de plastique qui serviront à diverses utilisations possible après avoir été traité et dépollué.
 					Ces billes en plastiques sont surtout utilisées actuellement dans la fabrication de paletes industrielles.
 				</p>
 				<p class="p_size_concept">
-					Avec notre projet, en plus de vous amuser avec une rivalité amicale en choisssant votre camp,
-					vous nous aidez aussi à résoudre un sérieux problème écologique que représentent les mégots jettés par terre !
+                    Avec notre concept, en plus de passer un bon moment avec une rivalité amicale en choisissant votre camp,
+                    vous nous aidez aussi à résoudre un sérieux problème que représentent les milliers de mégots de cigarette jetés par terre !
 				</p>
 			</div>
             <div class="size_gif_concept hide">

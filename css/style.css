@@ -709,7 +709,7 @@ transition: all 0.1s ease-out;
 }
 
 #vote_three{
-    background: url(../css/poubelle_skie_plage.png);
+    background: url(../css/ski_plage.png);
     background-size: 100% 100%;
     width: 30%;
     height: 110px;
@@ -1561,7 +1561,7 @@ footer > h3{
     }
 
     #vote_three{
-        background: url(../css/poubelle_skie_plage.png);
+        background: url(../css/ski_plage.png);
         background-size: 100% 100%;
         width: 25%;
         height: 175px;
@@ -1922,7 +1922,7 @@ footer > h3{
     }
 
     #vote_three{
-    background: url(../css/poubelle_skie_plage.png);
+    background: url(../css/ski_plage.png);
     background-size: 100% 100%;
     height: 200px;
     width: 250px;
