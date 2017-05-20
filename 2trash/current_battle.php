@@ -108,7 +108,7 @@
 					</div>
 				</div>
 				<div class="center width_total">
-					<p> Grâce à vous, <span id="gramme">3kg</span> de mégots vont pouvoir être recylclés!</p>
+					<p> Grâce à vous, <span id="gramme">3kg</span> de mégots vont pouvoir être recyclés!</p>
 				</div>
 				<div class="center_title_google">
 					<p>Trouvez les battles près de chez vous!</p>
