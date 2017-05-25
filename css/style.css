@@ -2074,6 +2074,14 @@ footer > h3{
         background-size: 100% 100%;
     }
 
+    .square_last_battle {
+    height: 443px;
+    }
+
+    .button {
+    width: 214px;
+    }
+
     /*----------------------*/
     /*------ concept -------*/
     /*----------------------*/
